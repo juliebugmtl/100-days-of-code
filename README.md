@@ -6,11 +6,7 @@
 * [Log - click here to see my progress](log.md)
 * [FAQ](FAQ.md)
 * [Resources](resources.md)
-
-## Translations
-[español](intl/es/README.md) – [français](intl/fr/FAQ-fr.md) – [polski](intl/pl/README.md) - [русский](intl/ru/README-ru.md) - [português do Brasil](intl/pt-br/LEIAME.md) – [deutsch](intl/de/README.md) – [українська](intl/ua/README-ua.md) – [한국어](intl/ko/README-ko.md) – [中文](intl/ch/README.md)
-
-If you want to help by providing a translation of content/rules in the language you know, submit a pull request (or DM me on Twitter @ka11away), adding a sub-folder in the 'intl' folder with the files of the translation there.
+* [My blog post](https://digitalurbanite.net/100daysofcode/)
 
 ## If you've decided to join:
 
