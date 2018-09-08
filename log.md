@@ -42,3 +42,28 @@ I should also probably ask them if they're absolutely certain they want to delet
 Next up is the login process, which, to be honest, is terrifying to me. But I'll have the whole weekend to play with that. :D
 
 **Link to work:** [Instagram post](https://www.instagram.com/p/Bnaf94khJUS/)
+
+### Day 4: September 7, 2018
+#### Hours spent coding: ~3
+
+**Today's Progress:** Registration was finished, right? I said so myself yesterday.
+
+Fun fact: it wasn't exactly finished.
+
+I spent at least two hours trying to figure out why my passwords weren't matching.
+
+The issue was that I'd renamed my `password` field to `password1`. Did I change that when I set the variables from the `$_POST` data? No. No, I did not. So it was taking an empty password and hashing that, which is why my password_verify attempts kept failing.
+
+_*sigh*_ Live and learn, I guess.
+
+Speaking of learning, even though I learned about sessions and cookies in my PHP I and PHP II courses last year, I'm still uber fuzzy on them. But I set up a session for logged-in users and non-logged-in users go back to login. So all of that works and I can log in successfully. Still a lot to do to clean up this functionality and make it look pretty and such. Also, like, what can a logged-in user even do? I'm going to have to set up admin flags too. So it's far from finished, but it's functional, and I feel like that's the toughest part of this login thing. Everything else should be tweaking and refining.
+
+**Thoughts:** All day long, I was really, really excited to get to code. And then I sat down to do it and I was like "ehhhhhhh." But I persevered and soon got really into it. My 3 hours of coding took place over about five hours, so I took a few breaks here and there, but definitely was heads-down on this stuff for at least 90m straight at one point.
+
+The password thing is so infuriating to me. That it took me over two hours to figure that out is maddening. Everything I'd been doing was fine, didn't need changes, etc, it was that what was being stored in the database was not what the user entered. Ugh. So glad to have found the bug.
+
+Also, it still makes me excessively happy to have email delivered to me by SendGrid. :D
+
+Gonna work on refining things here -- and that includes not accidentally adding my vendor directory to GitHub. I suppose I should investigate .gitignore, eh?
+
+**Link to work:** [Instagram post](https://www.instagram.com/p/BndXW9qBWdx/)
