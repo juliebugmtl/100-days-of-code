@@ -66,4 +66,8 @@ Also, it still makes me excessively happy to have email delivered to me by SendG
 
 Gonna work on refining things here -- and that includes not accidentally adding my vendor directory to GitHub. I suppose I should investigate .gitignore, eh?
 
+Oh, AND! And. It was super exciting to merge my registration branch to master and then create a new branch for login.
+
+That is all. :)
+
 **Link to work:** [Instagram post](https://www.instagram.com/p/BndXW9qBWdx/)
