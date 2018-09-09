@@ -95,7 +95,7 @@ I did plan out what should be accessible to various users (normal users vs. admi
 ### Day 6: September 9, 2018
 #### Hours spent coding: ~1
 
-**Today's Progress**: My goal was to fix token generation, expiry and the updating of tokens. I wanted to implement a 24h expiry on all tokens and I wanted to update tokens when:
+**Today's Progress**: Oops, totally forgot that my _original_ goal today was to make sure I have a validate check on login. I want users to validate their email address before they can log in. That took me maybe 20 minutes, hah, so I then decided to fix token generation and implement the expiry of tokens and make sure that tokens updated properly. I wanted to implement a 24h expiry on all tokens and I wanted to update tokens when:
 
 - a user validates their email address
 - a user logs in
