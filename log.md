@@ -71,3 +71,23 @@ Oh, AND! And. It was super exciting to merge my registration branch to master an
 That is all. :)
 
 **Link to work:** [Instagram post](https://www.instagram.com/p/BndXW9qBWdx/)
+
+### Day 5: September 8, 2018
+#### Hours spent coding: ~2
+
+**Today's Progress**: Kind of a one step forward, two steps back kind of day. I added a check to make sure a token isn't generated for a user who hasn't properly been inserted into the database and also send the user a message asking them to contact us.
+
+What I got hung up on was a check verifying that:
+a) a user exists
+b) they're a verified user
+c) their password matches
+
+I have a) and c) down, but I can't figure out how or where to add the verified check. I need to let this one percolate a bit.
+
+I also got a lot of planning done, feeling better about having some kind of "energy" that various player actions use. I suspect I'll need to math some stuff out, which I'm not particularly looking forward to.
+
+I did plan out what should be accessible to various users (normal users vs. admins) and so coding those functions for both shouldn't be terribly difficult. My planning today has meant that I should be able to code without too much more planning for the next week.
+
+**Thoughts:** I posted to [the blog](https://digitalurbanite.net/so-much-progress) today, so you can check that out for more thoughts. :)
+
+**Link to work:** [Instagram post](https://www.instagram.com/p/BnfgOJlBKFa/)
