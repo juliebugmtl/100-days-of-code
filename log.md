@@ -91,3 +91,17 @@ I did plan out what should be accessible to various users (normal users vs. admi
 **Thoughts:** I posted to [the blog](https://digitalurbanite.net/so-much-progress) today, so you can check that out for more thoughts. :)
 
 **Link to work:** [Instagram post](https://www.instagram.com/p/BnfgOJlBKFa/)
+
+### Day 6: September 9, 2018
+#### Hours spent coding: ~1
+
+**Today's Progress**: My goal was to fix token generation, expiry and the updating of tokens. I wanted to implement a 24h expiry on all tokens and I wanted to update tokens when:
+
+- a user validates their email address
+- a user logs in
+
+I also had a bit of a wonky function wherein the validation link was sending the _token's_ ID rather than the associated _user_id_, so I fixed that up, too, to ensure validation mails worked regardless of how many token records there are as compared to user records.
+
+**Thoughts:** Short day today, only about an hour or so on the items in question, but I set out to accomplish those very specific things and I did it.
+
+**Link to work:** [Instagram post](https://www.instagram.com/p/BnhelKBhmC6/) - note that token id 7 (aka user_id 9) has three separate tokens in the shot, queried pre-validation, post-validation and post-login.
