@@ -118,3 +118,12 @@ Planned out and started implementing the change email function. It's definitely 
 **Link to work:** [Instagram post](https://www.instagram.com/p/Bnkv7SehW2l/) - this is where I currently error out on the change email workflow. Something to dig into tomorrow or later this week.
 
 #### ETA: Week 1 complete and with about 17 hours of coding done. That's like a part-time job. On top of my actual job. I'm kind of impressed, honestly, and the week flew by.
+
+### Day 8: September 11, 2018
+#### Hours spent coding: ~1
+
+**Today's Progress**: Tonight was all about the change email function. It's not at all working, but the foundation for it is there. The issue is that I'm getting errors, so tomorrow, I'll want to debug and see what's going wrong. Made a lot of progress, though, and learned how to send to multiple recipients with SendGrid.
+
+**Thoughts:** Wasn't really feeling like coding after I napped on my couch this evening, but I forced myself to get up and get going. Once I started, I got into it pretty quickly!
+
+**Link to work:** [Instagram post](https://www.instagram.com/p/BnnWiDxBkql/)
