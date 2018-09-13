@@ -127,3 +127,12 @@ Planned out and started implementing the change email function. It's definitely 
 **Thoughts:** Wasn't really feeling like coding after I napped on my couch this evening, but I forced myself to get up and get going. Once I started, I got into it pretty quickly!
 
 **Link to work:** [Instagram post](https://www.instagram.com/p/BnnWiDxBkql/)
+
+### Day 9: September 12, 2018
+#### Hours spent coding: 1h15m
+
+**Today's Progress**: Finally tracked down my issues with my change email functionality and now it all seems to work. The code is definitely ugly and could be a lot nicer, but refactoring that is a headache for later. (I did put it down in my task manager software, so I won't forget about how ugly it is.)
+
+**Thoughts:** I've had a low-grade headache all day, slept like crap last night and it's 1:39am as I write this, but I'm glad I got an hour and a bit done tonight. If nothing else, figuring out my change email functionality was totally worth my time. I'm really not great at the whole "consistency" thing -- my nature is to procrastinate and then do All The Things At Once -- but this challenge obviously doesn't lend itself to "code once for 14 hours every two weeks". And I'm glad it doesn't. Also, the fact that I only started coding after midnight on the 13th but am still counting it for the 12th is pretty cool. I really do take it as "between waking up and sleeping" and that works so well for me. I never think "oh, it's too late, I've missed a day!", which is vital to me not being discouraged.
+
+**Link to work:** [Instagram post](https://www.instagram.com/p/Bnp54TyhFyh/)
