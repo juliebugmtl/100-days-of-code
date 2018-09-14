@@ -136,3 +136,14 @@ Planned out and started implementing the change email function. It's definitely 
 **Thoughts:** I've had a low-grade headache all day, slept like crap last night and it's 1:39am as I write this, but I'm glad I got an hour and a bit done tonight. If nothing else, figuring out my change email functionality was totally worth my time. I'm really not great at the whole "consistency" thing -- my nature is to procrastinate and then do All The Things At Once -- but this challenge obviously doesn't lend itself to "code once for 14 hours every two weeks". And I'm glad it doesn't. Also, the fact that I only started coding after midnight on the 13th but am still counting it for the 12th is pretty cool. I really do take it as "between waking up and sleeping" and that works so well for me. I never think "oh, it's too late, I've missed a day!", which is vital to me not being discouraged.
 
 **Link to work:** [Instagram post](https://www.instagram.com/p/Bnp54TyhFyh/)
+
+### Day 10: September 13, 2018
+#### Hours spent coding: 1.5h
+
+**Today's Progress**: Used my extremely ugly change email code as a base for the change password function. It works! Should refactor, but it works.
+
+**Thoughts:** The headaches and poor sleep continue. Hoping tonight will be better, because I think I could have achieved this functionality in half the time, if my brain were properly rested.
+
+That said, I'm pretty pleased with the progress I've made so far. Should probably do the log out functionality next and then... maybe... I can start in on _the game itself_?!
+
+**Link to work:** [Instagram post](https://www.instagram.com/p/BnsVrK0B6fu/)
