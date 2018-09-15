@@ -147,3 +147,14 @@ Planned out and started implementing the change email function. It's definitely 
 That said, I'm pretty pleased with the progress I've made so far. Should probably do the log out functionality next and then... maybe... I can start in on _the game itself_?!
 
 **Link to work:** [Instagram post](https://www.instagram.com/p/BnsVrK0B6fu/)
+
+#### Blog: [https://digitalurbanite.net](https://digitalurbanite.net)
+
+### Day 11: September 14, 2018
+#### Hours spent coding: ~1.5h
+
+**Today's Progress**: Added logout function, made the login page pretty, added some profane names, added some session checks, created a script to run on the MySQL CLI to create three test users as needed. Then, merged the login branch to master. No big deal...
+
+**Thoughts:** Huge deal. I have the question functionality working, I have registration, login, logout, change password and change email functions working. We're fast-approaching the point where I'm going to actually be coding _the game itself_. :O Very pleased with the more than 22 hours I've put into this over the last 11 days. Things are paying off. Additionally, I no longer feel as though I'm entirely unqualified to code this. :D
+
+**Link to work:** [Instagram post](https://www.instagram.com/p/BnvHq4FhsJ6/)
