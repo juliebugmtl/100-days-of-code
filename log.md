@@ -158,3 +158,12 @@ That said, I'm pretty pleased with the progress I've made so far. Should probabl
 **Thoughts:** Huge deal. I have the question functionality working, I have registration, login, logout, change password and change email functions working. We're fast-approaching the point where I'm going to actually be coding _the game itself_. :O Very pleased with the more than 22 hours I've put into this over the last 11 days. Things are paying off. Additionally, I no longer feel as though I'm entirely unqualified to code this. :D
 
 **Link to work:** [Instagram post](https://www.instagram.com/p/BnvHq4FhsJ6/)
+
+### Day 12: September 15, 2018
+#### Hours spent coding: ~2
+
+**Today's Progress**: Did a lot of planning things out on paper! I really need to organize my tasks (either pick Trello or the other task-tracker I'm using). I also started the gameplay, working out that people will need a check to not see the game intro if they've already seen it, so that's starting off okay.
+
+**Thoughts:** It's challenging to write creatively as well as write code. Must confer with my friend L about the story stuff when I get a chance. Still, right now, it's all placeholdery stuff. Also, it's equal parts terrifying and exhilirating to have a branch called `gameplay`.
+
+**Link to work:** [Instagram post](https://www.instagram.com/p/BnxwJKChb4W/)
