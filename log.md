@@ -160,10 +160,19 @@ That said, I'm pretty pleased with the progress I've made so far. Should probabl
 **Link to work:** [Instagram post](https://www.instagram.com/p/BnvHq4FhsJ6/)
 
 ### Day 12: September 15, 2018
-#### Hours spent coding: ~2
+#### Hours spent coding: ~1
 
-**Today's Progress**: Did a lot of planning things out on paper! I really need to organize my tasks (either pick Trello or the other task-tracker I'm using). I also started the gameplay, working out that people will need a check to not see the game intro if they've already seen it, so that's starting off okay.
+**Today's Progress**: Tackled true email uniqueness, including dealing with an issue where my email stuff was coming in from POST as null. Fun fact: that was my renaming a variable to email1 and not changing it elsewhere. Also made a note to make PHP check errors look like JS check errors for consistency.
 
-**Thoughts:** It's challenging to write creatively as well as write code. Must confer with my friend L about the story stuff when I get a chance. Still, right now, it's all placeholdery stuff. Also, it's equal parts terrifying and exhilirating to have a branch called `gameplay`.
+**Thoughts:** It was tough to deal with PDO errors and array errors and missing variable errors before 9am, not being a morning person and all. Still, I put in a good hour and solved one of the issues I'd been facing. Will definitely need to double-check that I haven't broken anything, though.
 
-**Link to work:** [Instagram post](https://www.instagram.com/p/BnxwJKChb4W/)
+**Link to work:** [Instagram post](https://www.instagram.com/p/BnTf_bCBMOP/)
+
+### Day 13: September 16, 2018
+#### Hours spent coding: ~1
+
+**Today's Progress**: Realized I could use AJAX calls to pull in the introduction content without needing to create like six or eight or ten separate pages, so I did that.
+
+**Thoughts:** Wasn't really feeling it today, couldn't really get anything started, but was glad I was able to implement AJAX to pull text on the click of a button.
+
+**Link to work:** [Instagram post](https://www.instagram.com/p/Bn0EcQihj1b/)
