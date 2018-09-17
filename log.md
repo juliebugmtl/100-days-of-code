@@ -176,3 +176,12 @@ That said, I'm pretty pleased with the progress I've made so far. Should probabl
 **Thoughts:** Wasn't really feeling it today, couldn't really get anything started, but was glad I was able to implement AJAX to pull text on the click of a button. What's kind of neat is that I'm using parts of five of my six classes from my diploma. HTML 5 and CSS 3, of course. SQL? Constantly. PHP I and PHP II? Yep. JavaScript for all kinds of form validation and now AJAX for the calls for the text. The only thing I need to incorporate is Java to have all six of my classes represented in this project. But, since Java was my first real programming language, I suspect that each time I do an `if` statement or a `while` loop, Java's getting represented anyway. ;)
 
 **Link to work:** [Instagram post](https://www.instagram.com/p/Bn0EcQihj1b/)
+
+### Day 14: September 17, 2018
+#### Hours spent coding: ~1
+
+**Today's Progress**: Was up inexplicably early, so decided to code a bit. Didn't get too much done, just added more intro stuff and prepared my old test PDO question file to be thoroughly rewritten to work with the intro.
+
+**Thoughts:** I just want to go back to bed, hahaha. Did not have the brain power to sit there and rewrite all that needs rewriting. It'll percolate, though, and I'll come back to it tomorrow or something. In the meantime, this completes Week 2 of #100daysofcode! Done about 25 hours of coding in that time, which is substantially less than what I was on pace for after Week 1. Still, I've made a lot of progress and done a fair bit of planning. Things are going well, if a little slowly.
+
+**Link to work:** [Instagram post](https://www.instagram.com/p/Bn1F3PZBrtb/)
