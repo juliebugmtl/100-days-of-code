@@ -173,6 +173,6 @@ That said, I'm pretty pleased with the progress I've made so far. Should probabl
 
 **Today's Progress**: Realized I could use AJAX calls to pull in the introduction content without needing to create like six or eight or ten separate pages, so I did that.
 
-**Thoughts:** Wasn't really feeling it today, couldn't really get anything started, but was glad I was able to implement AJAX to pull text on the click of a button.
+**Thoughts:** Wasn't really feeling it today, couldn't really get anything started, but was glad I was able to implement AJAX to pull text on the click of a button. What's kind of neat is that I'm using parts of five of my six classes from my diploma. HTML 5 and CSS 3, of course. SQL? Constantly. PHP I and PHP II? Yep. JavaScript for all kinds of form validation and now AJAX for the calls for the text. The only thing I need to incorporate is Java to have all six of my classes represented in this project. But, since Java was my first real programming language, I suspect that each time I do an `if` statement or a `while` loop, Java's getting represented anyway. ;)
 
 **Link to work:** [Instagram post](https://www.instagram.com/p/Bn0EcQihj1b/)
