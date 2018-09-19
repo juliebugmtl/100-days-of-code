@@ -185,3 +185,12 @@ That said, I'm pretty pleased with the progress I've made so far. Should probabl
 **Thoughts:** I just want to go back to bed, hahaha. Did not have the brain power to sit there and rewrite all that needs rewriting. It'll percolate, though, and I'll come back to it tomorrow or something. In the meantime, this completes Week 2 of #100daysofcode! Done about 25 hours of coding in that time, which is substantially less than what I was on pace for after Week 1. Still, I've made a lot of progress and done a fair bit of planning. Things are going well, if a little slowly.
 
 **Link to work:** [Instagram post](https://www.instagram.com/p/Bn1F3PZBrtb/)
+
+### Day 15: September 18, 2018
+#### Hours spent coding: ~2.5
+
+**Today's Progress**: Worked on intro stuff, specifically getting my question/answer functions to actually work within the context of the intro. Like, it all needs to be rewritten because I just scripted it freehand and I should really, you know, use a separate file where I store my classes and functions. Of course, I feel dumb, because I spent so much time tonight wondering why the MySQL calls wouldn't work. Well, as it turns out, I was querying the database with my USER user, not my QUESTIONS user, so of course the USER user doesn't have access to the QUESTIONS database. Fun fact, this tripped me up in July, too. I'm grateful it took me less than an actual week to figure it out this time. That said, I smacked my forehead with my palm so hard that it still smarts, even several minutes later.
+
+**Thoughts:** I hate that I made the same mistake and didn't immediately realize it. Ugh. Also, this is vaguely annoying stuff, but I know it needs to be done. Getting ever-closer to getting the intro to work. Once that works, then we can actually launch into real gameplay, which will require another version of the Q&A system I'm writing now. It's all gonna be finicky stuff, but once it works, that's like, half the battle. (Insert GI Joe motto here.)
+
+**Link to work:** [Instagram post](https://www.instagram.com/p/Bn5JaMMhChE/)
