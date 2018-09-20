@@ -194,3 +194,12 @@ That said, I'm pretty pleased with the progress I've made so far. Should probabl
 **Thoughts:** I hate that I made the same mistake and didn't immediately realize it. Ugh. Also, this is vaguely annoying stuff, but I know it needs to be done. Getting ever-closer to getting the intro to work. Once that works, then we can actually launch into real gameplay, which will require another version of the Q&A system I'm writing now. It's all gonna be finicky stuff, but once it works, that's like, half the battle. (Insert GI Joe motto here.)
 
 **Link to work:** [Instagram post](https://www.instagram.com/p/Bn5JaMMhChE/)
+
+### Day 6: September 19, 2018
+#### Hours spent coding: ~2
+
+**Today's Progress**: Figured out the database stuff and permissions through what seems like a lot of trial and error, but now my data is trapped in an array and I can't pull it back through the damn return statement, because it nulls out _and I don't know why_. Ugh.
+
+**Thoughts:** So frustrated to have worked through the DB user permission issues and be faced with what is likely something very easy to fix but I can't find the solution. Yet. I'm looking forward to taking most of next week off while I'm out of town on a work trip. I really need to clear my head, I think.
+
+**Link to work:** [Instagram post](https://www.instagram.com/p/Bn70tWEBZxf/)
