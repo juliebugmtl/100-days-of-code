@@ -195,7 +195,7 @@ That said, I'm pretty pleased with the progress I've made so far. Should probabl
 
 **Link to work:** [Instagram post](https://www.instagram.com/p/Bn5JaMMhChE/)
 
-### Day 6: September 19, 2018
+### Day 16: September 19, 2018
 #### Hours spent coding: ~2
 
 **Today's Progress**: Figured out the database stuff and permissions through what seems like a lot of trial and error, but now my data is trapped in an array and I can't pull it back through the damn return statement, because it nulls out _and I don't know why_. Ugh.
