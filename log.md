@@ -203,3 +203,12 @@ That said, I'm pretty pleased with the progress I've made so far. Should probabl
 **Thoughts:** So frustrated to have worked through the DB user permission issues and be faced with what is likely something very easy to fix but I can't find the solution. Yet. I'm looking forward to taking most of next week off while I'm out of town on a work trip. I really need to clear my head, I think.
 
 **Link to work:** [Instagram post](https://www.instagram.com/p/Bn70tWEBZxf/)
+
+### Day 17: September 20, 2018
+#### Hours spent coding: ~1
+
+**Today's Progress**: Discovered how to use `list` to rescue my data that was trapped in an array that kept nulling out on return! YAY! Then discovered that I basically need to rewrite a bunch of stuff on the `POST` version of my questions. Well, that'll be this weekend's project, I guess.
+
+**Thoughts:** Felt great to figure it out with the `list` thing. Didn't feel so great when I realized I'm super rusty at even writing a simple `while` loop. I need to give things more thought, so I'm calling it for the night and can tackle it on the weekend.
+
+**Link to work:** [Instagram post](https://www.instagram.com/p/Bn-WyZfBwR-/)
