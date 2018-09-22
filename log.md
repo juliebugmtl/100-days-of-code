@@ -212,3 +212,12 @@ That said, I'm pretty pleased with the progress I've made so far. Should probabl
 **Thoughts:** Felt great to figure it out with the `list` thing. Didn't feel so great when I realized I'm super rusty at even writing a simple `while` loop. I need to give things more thought, so I'm calling it for the night and can tackle it on the weekend.
 
 **Link to work:** [Instagram post](https://www.instagram.com/p/Bn-WyZfBwR-/)
+
+### Day 18: September 21, 2018
+#### Hours spent coding: ~1
+
+**Today's Progress**: Struggling with getting the right question ID passed back and forth through things. I couldn't iterate it since it was a string, so I juggled the type to an integer and that seemed to work, but it only works for the first go around on the `POST`. I'll figure it out, I'm sure. But probably not at 3:45am.
+
+**Thoughts:** I feel like I'm close to getting this. But what's discouraging is that I need to modify this to make it work for the actual game and not just the intro. It feels kind of silly to kind of do it twice? We'll see. Maybe it won't be so big of a difference.
+
+**Link to work:** [Instagram post](https://www.instagram.com/p/BoBTtc3hQUJ/)
