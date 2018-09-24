@@ -221,3 +221,12 @@ That said, I'm pretty pleased with the progress I've made so far. Should probabl
 **Thoughts:** I feel like I'm close to getting this. But what's discouraging is that I need to modify this to make it work for the actual game and not just the intro. It feels kind of silly to kind of do it twice? We'll see. Maybe it won't be so big of a difference.
 
 **Link to work:** [Instagram post](https://www.instagram.com/p/BoBTtc3hQUJ/)
+
+### Day 19: September 23, 2018
+#### Hours spent coding: ~2.5
+
+**Today's Progress**: Took yesterday off, even though I'm taking most of this week off while I'm out of town for a work thing. It really helped me be able to take a step back and better figure out what was going on with my code. Tonight, I continued to work on my introduction section and I'm pleased to say you can now get through that section. If the user fails that section, well, that still needs work. More thought, then more work.
+
+**Thoughts:** I felt badly taking yesterday off, but it ended up being really good for me. When I sat down to code tonight, I was more energized than I had been in recent days. Gotta do some planning next!
+
+**Link to work:** [Instagram post](https://www.instagram.com/p/BoGGRedB-zf/)
