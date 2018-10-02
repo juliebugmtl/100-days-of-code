@@ -230,3 +230,12 @@ That said, I'm pretty pleased with the progress I've made so far. Should probabl
 **Thoughts:** I felt badly taking yesterday off, but it ended up being really good for me. When I sat down to code tonight, I was more energized than I had been in recent days. Gotta do some planning next!
 
 **Link to work:** [Instagram post](https://www.instagram.com/p/BoGGRedB-zf/)
+
+### Day 20: October 1, 2018
+#### Hours spent coding, er, researching: ~1.5
+
+**Today's Progress**: Well, that was a long break. Work trip was great, but I came back and had no idea what the hell I was doing in terms of my code. I had no idea where I'd left off. So I took time tonight to re-acquaint myself with my code and figure out what I need to do next. And then researching that a bit. I'm going to have to use cookies to store question ID values to help try to prevent duplicates. I have no idea if this is going to work and, worse, I have no idea where to start. But I'm relatively certain I'll have to use cookies to achieve this.
+
+**Thoughts:** I should have coded last night, but I didn't. And I should have done more tonight, but I didn't. Still, I at least know what I need to research and play with for the next few days. I'm hopeful I can actually start playing with cookies tomorrow night. I'm really making use of _all the things_ I learned in my PHP classes. Which, on the one hand is great, but on the other is scary, because some of the stuff we touched on was, well, super basic. Like, oh, I don't know, _cookies_.
+
+**Link to work:** No link tonight, since I don't really have anything to show.
