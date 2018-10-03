@@ -239,3 +239,20 @@ That said, I'm pretty pleased with the progress I've made so far. Should probabl
 **Thoughts:** I should have coded last night, but I didn't. And I should have done more tonight, but I didn't. Still, I at least know what I need to research and play with for the next few days. I'm hopeful I can actually start playing with cookies tomorrow night. I'm really making use of _all the things_ I learned in my PHP classes. Which, on the one hand is great, but on the other is scary, because some of the stuff we touched on was, well, super basic. Like, oh, I don't know, _cookies_.
 
 **Link to work:** No link tonight, since I don't really have anything to show.
+
+### Day 21: October 2, 2018
+#### Hours spent coding: ~2
+
+**Today's Progress**: Figured out that I'm definitely going to use sessions to hold the question ID values (and possibly category names?) in array format and check against that when drawing questions. The goal is just no dupes for like, 50, possibly 100 questions. MAYBE we'll just settle for nothing from the same category for like, 10 questions. There will be some repeat questions, I know there will be, but hopefully with the 4000 or so questions I'm hoping to start with, it won't be so bad? I also wrote up more text as to what the hell happens when you get the intro questions right. Then that sequence will end and will run a series of modifications on the user table:
+
+- flag user as having done the intro
+- flag user's location as being 0km on the river
+- change the user's energy to be 100
+
+Thereafter, the user won't have to go through the intro again and should be brought back to their same location -- I'll rewrite the location every question they get right as they advance.
+
+**Thoughts:** It's definitely feeling like a slog, but I feel like I figured a couple things out tonight. I'm definitely worried about all the backend stuff that needs to happen on each question, but it's probably way too early for me to worry too much about too many DB calls.
+
+Probably.
+
+**Link to work:** [Instagram post](https://www.instagram.com/p/BodZBUVh0Tx/)
