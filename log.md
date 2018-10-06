@@ -256,3 +256,12 @@ Thereafter, the user won't have to go through the intro again and should be brou
 Probably.
 
 **Link to work:** [Instagram post](https://www.instagram.com/p/BodZBUVh0Tx/)
+
+### Day 2: October 5, 2018
+#### Hours spent coding: ~2
+
+**Today's Progress**: I've been sick for the past few days, which has not helped me in my endeavour. Still, I felt somewhat human tonight and so I was able to stare at my code. What probably should have taken me something like 45m took me around two hours. And I spent a ridiculous amount of time trying to find a syntax error in my SQL statement that was caused by an errant comma. Alas, the woes of illness. Still, people should now be able to go through the intro and get to the proper game. Which I haven't exactly created yet. But that's coming next.
+
+**Thoughts:** I'm glad I sat down to code tonight, despite the frustation and the congestion and the sneezing. I feel like I accomplished something.
+
+**Link to work:** [Instagram post](https://www.instagram.com/p/BolW-BPhon-/)
