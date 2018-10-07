@@ -265,3 +265,12 @@ Probably.
 **Thoughts:** I'm glad I sat down to code tonight, despite the frustation and the congestion and the sneezing. I feel like I accomplished something.
 
 **Link to work:** [Instagram post](https://www.instagram.com/p/BolW-BPhon-/)
+
+### Day 23: October 6, 2018
+#### Hours spent coding: ~1.5
+
+**Today's Progress**: Didn't feel like doing much of anything, but sat down, reorganized some files and got started on what will be the very start of the game. The intro leaves you to make camp at the riverside and gives you a choice to fish for food or to try to gather food. Next up on the list: coding those functions. The fun bit will be using randomness to decide whether or not you get any fish or can find enough food while gathering to sustain you!
+
+**Thoughts:** Still not feeling 100%, but glad I got some coding in. Thanksgiving with family tomorrow, but I've got Monday off, so more coding for sure!
+
+**Link to work:** [Instagram post](https://www.instagram.com/p/Bon1CdGBsh_/)
