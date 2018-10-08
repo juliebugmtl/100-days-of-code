@@ -274,3 +274,20 @@ Probably.
 **Thoughts:** Still not feeling 100%, but glad I got some coding in. Thanksgiving with family tomorrow, but I've got Monday off, so more coding for sure!
 
 **Link to work:** [Instagram post](https://www.instagram.com/p/Bon1CdGBsh_/)
+
+### Day 23: October 7, 2018
+#### Hours spent coding: ~3? 3.5?
+
+**Today's Progress**: I got the fishing function to mostly work! We're talking:
+- checkEnergy()
+- checkFishSkill()
+- goFish()
+- updateEnergy()
+
+It's not totally done, yet. I still need to update total fish caught, plus fish on hand, then need to make sure it doesn't yell at you about not having enough energy when, in fact, you **do** have enough energy, but that can wait until tomorrow.
+
+**Thoughts:** I was... shall we say, not the most confident I've ever been when it came time to tackle the fishing functionality, but I am SO SUPER PROUD of myself and what I accomplished tonight. So psyched to have written a valid switch statement (first time since something like last December!) and so pleased I could mess around with my own user in MySQL so I could test the different breakpoints of the fishing skill multiplier.
+
+This is definitely something I really enjoy about coding -- I often just break everything down into bits, which you kind of have to do in terms of functions, so my goal tonight was the `goFish()` function. And I got to it. And it works. And I feel phenomenal.
+
+**Link to work:** [Instagram post](https://www.instagram.com/p/BoqsUoLBzzA/)
