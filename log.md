@@ -275,7 +275,7 @@ Probably.
 
 **Link to work:** [Instagram post](https://www.instagram.com/p/Bon1CdGBsh_/)
 
-### Day 23: October 7, 2018
+### Day 24: October 7, 2018
 #### Hours spent coding: ~3? 3.5?
 
 **Today's Progress**: I got the fishing function to mostly work! We're talking:
