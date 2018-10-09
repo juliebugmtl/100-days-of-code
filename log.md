@@ -291,3 +291,12 @@ It's not totally done, yet. I still need to update total fish caught, plus fish 
 This is definitely something I really enjoy about coding -- I often just break everything down into bits, which you kind of have to do in terms of functions, so my goal tonight was the `goFish()` function. And I got to it. And it works. And I feel phenomenal.
 
 **Link to work:** [Instagram post](https://www.instagram.com/p/BoqsUoLBzzA/)
+
+### Day 25: October 8, 2018
+#### Hours spent coding: ~1
+
+**Today's Progress**: Reworked the fishing experience a little. I do a specific call to grab the number of fish on hand before I even fish so that I can display the right number of fish on hand after a fishing attempt, regardless of whether or not it's successful. I also store the energy value in a variable, so I can display that and offer users a choice as to what to do next, given X energy and X fish on hand. I need to cap the number of fish at like, 5 or something, I think, so I'll have to edit that at some point. Will probably also have to create a `fishAge` variable or something. Because, uh, you probably don't want to eat a fish ten days from when you first caught it without refrigeration...
+
+**Thoughts:** Feeling awesome. The math works, the logic works and I just need to think a bit more about the above scenario (too many fish, fish expiring, etc) and then fishing is totally done. Next up, gathering, which should be pretty simple now that fishing has been hammered out.
+
+**Link to work:** [Instagram post](https://www.instagram.com/p/BoswXiGBvae/)
