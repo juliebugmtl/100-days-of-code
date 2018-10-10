@@ -300,3 +300,12 @@ This is definitely something I really enjoy about coding -- I often just break e
 **Thoughts:** Feeling awesome. The math works, the logic works and I just need to think a bit more about the above scenario (too many fish, fish expiring, etc) and then fishing is totally done. Next up, gathering, which should be pretty simple now that fishing has been hammered out.
 
 **Link to work:** [Instagram post](https://www.instagram.com/p/BoswXiGBvae/)
+
+### Day 26: October 9, 2018
+#### Hours spent coding: ~1.5
+
+**Today's Progress**: I worked on refining the fishing experience. You now see your fishing skill and your skill can update when you fish (12% chance, not dependent on actually catching a fish). I think something is wonky in my logic when you don't have enough energy, so I'll need to puzzle that out In The Future (tm).
+
+**Thoughts:** And the second quarter of `#100daysofcode` starts! Can't believe I'm already a quarter of the way there. I almost didn't code tonight because I'd fallen asleep on my couch and I REALLY just wanted to go to bed, but I am definitely running out of days. I have 82 days until the new year and 74 more days of coding, so my "days off", so to speak, are super limited. I have no idea how I'm going to code *and* write *and* work during November...
+
+**Link to work:** [Instagram post](https://www.instagram.com/p/BovvTeMBXkR/)
