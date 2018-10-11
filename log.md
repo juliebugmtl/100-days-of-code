@@ -309,3 +309,12 @@ This is definitely something I really enjoy about coding -- I often just break e
 **Thoughts:** And the second quarter of `#100daysofcode` starts! Can't believe I'm already a quarter of the way there. I almost didn't code tonight because I'd fallen asleep on my couch and I REALLY just wanted to go to bed, but I am definitely running out of days. I have 82 days until the new year and 74 more days of coding, so my "days off", so to speak, are super limited. I have no idea how I'm going to code *and* write *and* work during November...
 
 **Link to work:** [Instagram post](https://www.instagram.com/p/BovvTeMBXkR/)
+
+### Day 27: October 10, 2018
+#### Hours spent coding: ~1.5
+
+**Today's Progress**: Feels like a three steps forward and two steps back kind of day, in that I'm slightly ahead of where I was, but I can *see* and *feel* the technical debt starting to pile up. Really, I should just completely rewrite the fishing experience, but it all *works* right now, though it's kind of patched together. Definitely not my finest day of coding, but it does work. So there's that.
+
+**Thoughts:** Sometimes, when I don't look at the very next thing to do in isolation, I get super discouraged. Like, all the checks I need to do at various parts of the game really just comes down to a few different functions, and if I'm reusing them, then I just have to write them once. So I need to remind myself that, even if something seems completely difficult, that it can always be broken down into smaller, more manageable tasks.
+
+**Link to work:** [Instagram post](https://www.instagram.com/p/BoyHutmBuHh/)
