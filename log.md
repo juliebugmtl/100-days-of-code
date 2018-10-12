@@ -318,3 +318,12 @@ This is definitely something I really enjoy about coding -- I often just break e
 **Thoughts:** Sometimes, when I don't look at the very next thing to do in isolation, I get super discouraged. Like, all the checks I need to do at various parts of the game really just comes down to a few different functions, and if I'm reusing them, then I just have to write them once. So I need to remind myself that, even if something seems completely difficult, that it can always be broken down into smaller, more manageable tasks.
 
 **Link to work:** [Instagram post](https://www.instagram.com/p/BoyHutmBuHh/)
+
+### Day 28: October 11, 2018
+#### Hours spent coding: ~1.5
+
+**Today's Progress**: Still hate fishing with all my heart and soul, but I did put a cap on number of fish and I did edit the user table to allow for things like "has the user eaten today? What level of `wellFed` are they?" and these will come in handy in the future, since I'm hoping to give people less energy than the full 100 if they're not `wellFed` that day, so that people will have to be smart about what food they're eating and when, etc. Of course, have I even planned out the eating stuff? KIND OF? There's so much to doooooooo.
+
+**Thoughts:** Gotta remind myself of yesterday's thoughts -- despite there being a lot to do, I gotta focus on the things that are relevant to what I'm doing right now and just write those functions, one by one by one.
+
+**Link to work:** [Instagram post](https://www.instagram.com/p/Bo06LIXhlBF/)
