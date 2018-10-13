@@ -160,13 +160,13 @@ That said, I'm pretty pleased with the progress I've made so far. Should probabl
 **Link to work:** [Instagram post](https://www.instagram.com/p/BnvHq4FhsJ6/)
 
 ### Day 12: September 15, 2018
-#### Hours spent coding: ~1
+#### Hours spent coding: ~2
 
-**Today's Progress**: Tackled true email uniqueness, including dealing with an issue where my email stuff was coming in from POST as null. Fun fact: that was my renaming a variable to email1 and not changing it elsewhere. Also made a note to make PHP check errors look like JS check errors for consistency.
+**Today's Progress**: Did a lot of planning things out on paper! I really need to organize my tasks (either pick Trello or the other task-tracker I'm using). I also started the gameplay, working out that people will need a check to not see the game intro if they've already seen it, so that's starting off okay.
 
-**Thoughts:** It was tough to deal with PDO errors and array errors and missing variable errors before 9am, not being a morning person and all. Still, I put in a good hour and solved one of the issues I'd been facing. Will definitely need to double-check that I haven't broken anything, though.
+**Thoughts:** It's challenging to write creatively as well as write code. Must confer with my friend L about the story stuff when I get a chance. Still, right now, it's all placeholdery stuff. Also, it's equal parts terrifying and exhilirating to have a branch called `gameplay`.
 
-**Link to work:** [Instagram post](https://www.instagram.com/p/BnTf_bCBMOP/)
+**Link to work:** [Instagram post](https://www.instagram.com/p/BnxwJKChb4W/)
 
 ### Day 13: September 16, 2018
 #### Hours spent coding: ~1
@@ -327,3 +327,12 @@ This is definitely something I really enjoy about coding -- I often just break e
 **Thoughts:** Gotta remind myself of yesterday's thoughts -- despite there being a lot to do, I gotta focus on the things that are relevant to what I'm doing right now and just write those functions, one by one by one.
 
 **Link to work:** [Instagram post](https://www.instagram.com/p/Bo06LIXhlBF/)
+
+### Day 29: October 12, 2018
+#### Hours spent coding: ~3 and 2+ hours planning!
+
+**Today's Progress**: Had coffee with L and we nerded out together about my game for a couple of hours. She helped me to do math and gave me some great ideas, including adding aggregate stats, so I can come up with things like a "correct question response rate", which then factors into the cost of actions in energy in the game. Super exciting! After meeting with her, I spent time working on an admin menu (since I'm not necessarily going to display those stats to the public at large) and added a simple check for admin (I had a flag in the user table). I then used a function to pull out the contents of the new `data` table I created that will ostensibly count all of this stuff. Must confer with my friend, A, to see if I need to worry about database locks and such if there's a lot of traffic, because I'd rather know *now* that I need an alternate plan, before I've written too much.
+
+**Thoughts:** Everything is super exciting and super overwhelming but also super awesome.
+
+**Link to work:** [Instagram post](https://www.instagram.com/p/Bo3pw8shRuW/)
