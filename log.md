@@ -336,3 +336,14 @@ This is definitely something I really enjoy about coding -- I often just break e
 **Thoughts:** Everything is super exciting and super overwhelming but also super awesome.
 
 **Link to work:** [Instagram post](https://www.instagram.com/p/Bo3pw8shRuW/)
+
+### Day 30: October 13, 2018
+#### Hours spent coding: ~3
+
+**Today's Progress**: Didn't do a whole lot of *coding*, actually, but I did a lot of database stuff, which totally counts. :D I added a bunch of new questions (over 50 to do with European/UK capitals and 100 about the Montreal Canadiens). I also organized stuff with the database tables and the users for a better way to do aggregate stats. I'm hoping that the way I've done it will allow me to pull out stats such as the total questions asked and total questions answered correctly, **but also** things like which question is the easiest/hardest to answer? Which category is the easiest/hardest?
+
+**Thoughts:** Even though I know *a lot* about the Montreal Canadiens, even I struggled to create 100 questions. I swear to God, more than 50% of the answers are either: `jose theodore`, `saku koivu` or `richard` (meaning either Henri or Maurice). My goal is to have ~100 questions on each of a variety of subjects before launch. Like, 4000, 5000 questions. I am currently at, uh, 293. So that's not intimidating at all! :'D
+
+Also, wow, 30 days. Nearly a third of the way there and the first month is officially done!
+
+**Link to work:** [Instagram post](https://www.instagram.com/p/Bo6JWA0BTWY/)
