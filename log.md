@@ -347,3 +347,18 @@ This is definitely something I really enjoy about coding -- I often just break e
 Also, wow, 30 days. Nearly a third of the way there and the first month is officially done!
 
 **Link to work:** [Instagram post](https://www.instagram.com/p/Bo6JWA0BTWY/)
+
+### Day 31: October 14, 2018
+#### Hours spent coding: ~2
+
+**Today's Progress**: By "coding", you should take that to mean "yelling at MySQL, Google Sheets, Google and Stack Overflow", but I got the import of a CSV file to work. Rather than having hundreds (and eventually thousands) of `INSERT` statements in startup MySQL scripts, I figure I can put CSV files in a directory for MySQL to import. It took me a long time to figure out how to:
+
+- `LOAD DATA INFILE` at all, because the default Docker config has secure_file_priv on or whatever it is and that prevented me from importing
+- not get MySQL errors once I COULD load the file because the formatting was wrong because I'm importing into a table that has an auto increment (fun fact: use `set category=null;` for the auto incrementing one
+- determine if I should use `\r\n` or `\r` or `\n` to signify a new line (it was `\n`)
+
+So a lot of finicky stuff tonight, but this means I can write questions in Google Sheets. More importantly, this means my friends and family members can write questions in Google Sheets! And I won't have to spend hours of my life copy/pasting these questions into `INSERT` statements.
+
+**Thoughts:** Didn't do a lot of real coding this weekend, but that's okay. Also, I suspect that I'll be spending a bunch of my `#100daysofcode` time in November dedicated to writing questions in Google Sheets. That needs to get done and I can spend an hour or so every day writing questions for my game while I take part in National Novel Writing Month. I've been pretty freaked out at the prospect of coding daily *and* writing daily, so while it's not technically going to be "coding", it's going to be essentially populating my game's database. Which is, you know, important for the game. :)
+
+**Link to work:** [Instagram post](https://www.instagram.com/p/Bo8SF6CBrZ1/)
