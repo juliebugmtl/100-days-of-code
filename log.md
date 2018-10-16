@@ -362,3 +362,12 @@ So a lot of finicky stuff tonight, but this means I can write questions in Googl
 **Thoughts:** Didn't do a lot of real coding this weekend, but that's okay. Also, I suspect that I'll be spending a bunch of my `#100daysofcode` time in November dedicated to writing questions in Google Sheets. That needs to get done and I can spend an hour or so every day writing questions for my game while I take part in National Novel Writing Month. I've been pretty freaked out at the prospect of coding daily *and* writing daily, so while it's not technically going to be "coding", it's going to be essentially populating my game's database. Which is, you know, important for the game. :)
 
 **Link to work:** [Instagram post](https://www.instagram.com/p/Bo8SF6CBrZ1/)
+
+### Day 32: October 15, 2018
+#### Hours spent coding/learning: ~2
+
+**Today's Progress**: Was up inexplicably early, so I bashed my head against some Docker issues and decided to get myself the [Udemy Docker Mastery course by Bret Fisher](https://www.udemy.com/docker-mastery/). It's absolutely necessary, since I need to know how to properly customize my Docker images in order to allow for the importation of data in a CSV with `LOAD DATA INFILE`. And I'm not going to edit my config and restart MySQL each time I want to develop or deploy or any of that nonsense. Anyway, so I bought the course and went through the first couple of sections tonight. I'm into **Section 3: Creating and Using Containers Like a Boss**. The guy has a sense of humour. :) So far, I've learned more about Docker commands in a couple of hours than I did in the entirety of my PHP II class. Which, you know, that's fair. It was a PHP II class. The instructor gave us prepared Dockerfiles which I'm now trying to modify without understanding, and that's not working. Hence the course.
+
+**Thoughts:** I was a little nervous -- and still am -- about the online course. I much prefer learning in person. I hope I'll stay motivated to get through it all.
+
+**Link to work:** [Instagram post](https://www.instagram.com/p/Bo-5JfCha6p/)
