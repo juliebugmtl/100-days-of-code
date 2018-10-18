@@ -371,3 +371,12 @@ So a lot of finicky stuff tonight, but this means I can write questions in Googl
 **Thoughts:** I was a little nervous -- and still am -- about the online course. I much prefer learning in person. I hope I'll stay motivated to get through it all.
 
 **Link to work:** [Instagram post](https://www.instagram.com/p/Bo-5JfCha6p/)
+
+### Day 33: October 17, 2018
+#### Hours spent coding/learning: ~1
+
+**Today's Progress**: Just did about an hour's worth of lectures and stuff from the Udemy course I'm taking on Docker. Learned a lot about some of the CLI stuff plus Docker networking. Some of the commentary in the course has also reassured me about changing default stuff in various images, which is part of my goal in taking this course, so that's good. I'm just eager to get to it. Hoping to finish the course this weekend and get back to coding and such soon.
+
+**Thoughts:** I took yesterday off because I was legitimately too tired to do anything. I was in bed by 10 and up at 4 for a couple of hours, but fell back to sleep for, oh, another five+ hours. Thankfully, I have flexible hours in terms of work. :D Anyway, hoping for more good sleep tonight. I've been having a hell of a time sleeping lately, so I hope my body has learned its lesson and that it's ready for a good night of sleep tonight. It's also not easy to code and figure things out when my brain has totally checked out, you know?
+
+**Link to work:** [Instagram post](https://www.instagram.com/p/BpD0p_Uhrwp/)
