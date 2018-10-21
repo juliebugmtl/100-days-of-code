@@ -389,3 +389,26 @@ So a lot of finicky stuff tonight, but this means I can write questions in Googl
 **Thoughts:** It's been a slog this week. Not because I'm not interested, but because work has been more draining than usual. We hired new people and are growing our team, but that means some resources are diverted towards training, which means more work for me and a couple of other colleagues. I am _wiped out_, man. And I have to stop skipping days here! I have 6-7 days "off" left. That is not a lot. This daily thing is different from National Novel Writing Month, wherein I can skip seven days and then just write 11,669 words in a single day. (I've done it. I've done more than 17,000 words in a single day. I do not wish to repeat that. *BUT I CAN DO IT!*) I just can't do that with this daily thing. I've also realized that "learning" (courses, etc) don't count, according to the official rules, but screw it. I'm investing in knowledge now so I can code later. It's all going towards my project. The same goes for writing questions -- everything I'm doing needs to be done for this project and I'm using this ```#100daysofcode``` thing in order to move forward in my game. And I have done SO MUCH, which is kind of insane. And amazing. But mostly insane. ;) Anyway, hoping to do more this weekend and maybe I can get back to really coding come Sunday.
 
 **Link to work:** [Instagram post](https://www.instagram.com/p/BpJXsFTB7t1/)
+
+### Day 35: October 20, 2018
+#### Hours spent coding/learning: ~5? 6?
+
+**Today's Progress**: Got through almost three full sections in the Udemy Docker course and I now more thoroughly understand my own ```Dockerfile``` and ```docker-compose.yml``` files (which were created by my teacher in my PHP II class and I've been using for my own purposes for nearly a year). I have a lot of ideas on how to improve them and am looking forward to finishing off the last bit of this section about Docker Compose.
+
+**Thoughts:** It feels really good to actually _understand_ things that exist in the ```Dockerfile``` and ```docker-compose.yml``` I've been using for so long. I understand about mounting volumes, setting environment variables, etc, so I'm pretty pleased to have that kind of understanding if nothing else. At minimum, I will now be able to properly modify these files to work better for me. Plus, I know how to avoid certain issues, such as what happened to me in late August/early September when I ended up arguing with Docker and MySQL for far too long:
+
+[Instagram video here](https://www.instagram.com/p/BnNwHwOBEcG/)
+
+What had happened then, which I recognize now, is that my ```Dockerfile``` was using the ```mysql``` image. When you don't define a version, it uses ```latest```, which is generally the latest stable branch of that software. I had been using MySQL 5.7.20 or something along those lines.
+
+Guess what happened in August at some point?
+
+MySQL 8 came out.
+
+So my image requested the latest version and downloaded the new one. And borked my stuff. It took me ages to figure it out, but I had to add this to my ```docker-compose.yml``` file in order to ensure the MySQL users I'd created had permissions:
+
+```command: --default-authentication-plugin=mysql_native_password```
+
+Not knowing anything about Docker and images at the time, I was essentially stumbling around in the dark on that, but I figured it out. Probably should have taken my online course then, to be frank. ;) Anyway! I now know how to prevent things like that by _specifying version numbers_ for the images. Already, this course has improved my quality of life as a developer. Looking forward to the next few bits before I turn loose my knowledge on my existing ```Dockerfile``` and ```docker-compose.yml```!
+
+**Link to work:** [Instagram post](https://www.instagram.com/p/BpMBvaaBO-n/)
