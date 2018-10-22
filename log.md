@@ -412,3 +412,12 @@ So my image requested the latest version and downloaded the new one. And borked 
 Not knowing anything about Docker and images at the time, I was essentially stumbling around in the dark on that, but I figured it out. Probably should have taken my online course then, to be frank. ;) Anyway! I now know how to prevent things like that by _specifying version numbers_ for the images. Already, this course has improved my quality of life as a developer. Looking forward to the next few bits before I turn loose my knowledge on my existing ```Dockerfile``` and ```docker-compose.yml```!
 
 **Link to work:** [Instagram post](https://www.instagram.com/p/BpMBvaaBO-n/)
+
+### Day 36: October 21, 2018
+#### Hours spent coding/learning: ~5
+
+**Today's Progress**: Finished up the sections of my Docker course that are actually going to be useful for me right now and then proceeded to break my local environment by trying to be fancy. ;) It works again, but I still have some stuff to tweak.
+
+**Thoughts:** It felt great to finish the part of the course I'd been most looking forward to and it felt very good to be working on my own ```Dockerfile``` and ```docker-compose.yml``` again. I even committed changes and pushed them to GitHub for the first time in days! That felt pretty great. I feel like I'm coming into this week ready to squash the Docker issues I'd been having and ready to move forward on the game itself.
+
+**Link to work:** [Instagram post](https://www.instagram.com/p/BpONwUvB5Lw/)
