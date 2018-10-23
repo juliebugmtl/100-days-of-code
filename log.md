@@ -421,3 +421,12 @@ Not knowing anything about Docker and images at the time, I was essentially stum
 **Thoughts:** It felt great to finish the part of the course I'd been most looking forward to and it felt very good to be working on my own ```Dockerfile``` and ```docker-compose.yml``` again. I even committed changes and pushed them to GitHub for the first time in days! That felt pretty great. I feel like I'm coming into this week ready to squash the Docker issues I'd been having and ready to move forward on the game itself.
 
 **Link to work:** [Instagram post](https://www.instagram.com/p/BpONwUvB5Lw/)
+
+### Day 37: October 22, 2018
+#### Hours spent coding: ~1.5
+
+**Today's Progress**: Struggled with Docker issues for about a half hour before I gave up on it for the moment, deciding to instead reacquaint myself with my code. I solved a division by 0 problem on my admin page, but then when I decided to show an admin menu option if a user is an admin, I get a too many redirects error if the user is _not_ an admin, so I need to remove the redirect from the admin check -- or write a second admin check. I also need to rewrite fishing entirely.
+
+**Thoughts:** I have to write PHP more than every week, because I forgot two closing ```}``` tonight and both errors made me go "what the what?" That said, I did decide that the first session post-intro will be like a session and a half. You'll make camp and be refreshed and be able to actually start down the river, rather than only get a half session to start with. Gotta get them hooked on it, after all.
+
+**Link to work:** [Instagram post](https://www.instagram.com/p/BpRCKxxhP2Q/)
