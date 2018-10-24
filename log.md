@@ -430,3 +430,12 @@ Not knowing anything about Docker and images at the time, I was essentially stum
 **Thoughts:** I have to write PHP more than every week, because I forgot two closing ```}``` tonight and both errors made me go "what the what?" That said, I did decide that the first session post-intro will be like a session and a half. You'll make camp and be refreshed and be able to actually start down the river, rather than only get a half session to start with. Gotta get them hooked on it, after all.
 
 **Link to work:** [Instagram post](https://www.instagram.com/p/BpRCKxxhP2Q/)
+
+### Day 38: October 23, 2018
+#### Hours spent coding: ~2
+
+**Today's Progress**: I _finally_ rewrote the damn fishing functionality, which I thought was awful and clumsy and I hated. It's now completely rewritten, which meant that I could write the _foraging_ functionality, which is almost identical to the fishing except for some math. I'm super stoked about it, too. I feel like I'm making true progress. Like... _maybe an alpha version will be out in December_? I have no idea. ANYWAY, I also wrote a ```switch``` statement for the different food types you can forage. Check it out in my Instagram post, linked below.
+
+**Thoughts:** I **really** did not want to rewrite fishing. But I did. I sucked it up and pushed through and victory was at the end of the road, along with my foraging functionality. And now I feel satisfied and productive and I can hopefully go sleep the sleep of the dead.
+
+**Link to work:** [Instagram post](https://www.instagram.com/p/BpTaeqfBTlw/)
