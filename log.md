@@ -439,3 +439,16 @@ Not knowing anything about Docker and images at the time, I was essentially stum
 **Thoughts:** I **really** did not want to rewrite fishing. But I did. I sucked it up and pushed through and victory was at the end of the road, along with my foraging functionality. And now I feel satisfied and productive and I can hopefully go sleep the sleep of the dead.
 
 **Link to work:** [Instagram post](https://www.instagram.com/p/BpTaeqfBTlw/)
+
+### Day 39: October 24, 2018
+#### Hours spent coding: ~2
+
+**Today's Progress**: Refined a few things, including my ```docker-compose.yml``` to create a network so that my IP address doesn't randomly change whenever I bring up my containers. I also worked to add eating to the game. Realized it's a bad thing to have ```NULL``` in certain columns, because users will often get down to 0 food items, so I went through and added ```NOT NULL``` to a bunch of columns in the creation script. I _think_ that'll fix the issue I'm having with my ```foodValue``` not appearing. Because, you know, it's ```NULL``` and not ```0```. Sheesh, the number of times I have modified my users table as I went through this, even though I was **absolutely certain I had everything accounted for** when I started? It's, well, unnerving. Huge props to DB admins for their foresight.
+
+**Thoughts:** Feeling good about moving through the intro. Once I finish eating, then I can get on to the sleep function, which will run a mini maintenance on the user. It'll check how well-fed they were (a certain amount of food will give 100 energy, down to 70 energy or so if you aren't fully well-fed), it'll restore some energy, it'll flag them as having completed the first night on the river and it'll unlock paddling, which leads to trivia questions.
+
+I don't even have to write _too_ much for paddling, since I've already got the basic question format done. But I'm probably not thinking far enough ahead to anticipate all my needs. We'll see! Once that's done, the bulk of gameplay is done. I need my three trials, of course, but those are just going to be special kinds of events at certain benchmarks. More thinking required here, too.
+
+Anyway, productive evening. :)
+
+**Link to work:** [Instagram post](https://www.instagram.com/p/BpWGgw_hf_u/)
