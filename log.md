@@ -452,3 +452,20 @@ I don't even have to write _too_ much for paddling, since I've already got the b
 Anyway, productive evening. :)
 
 **Link to work:** [Instagram post](https://www.instagram.com/p/BpWGgw_hf_u/)
+
+### Day 40: October 25, 2018
+#### Hours spent coding: ~2
+
+**Today's Progress**: The good news is I got the eating fish and food functions working properly. Fun fact, the ```null``` issue was not, in fact, caused by the column stuff because it was ongoing.
+
+Wanna know what it was?
+
+I was calling ```$newFoodValue``` but I'd only defined ```$newfoodValue```. Yep. One casening error.
+
+![facepalm](https://i.giphy.com/media/11zhT08QROSK64/giphy-downsized.gif "face. palm.")
+
+So that sucked. I spent like 90 minutes trying everything from type juggling to rewriting the function. Nothing worked. Because "food" and "Food" are quite different, apparently. Which I know. Oof.
+
+**Thoughts:** Kind of irritated with myself for not realizing that issue, you know, instantly. _*sigh*_ Hoping to tackle the end of the intro and on to the river proper on the weekend, hopefully. Hopefully. Maybe.
+
+**Link to work:** [Instagram post](https://www.instagram.com/p/BnTf_bCBMOP/)
