@@ -469,3 +469,12 @@ So that sucked. I spent like 90 minutes trying everything from type juggling to 
 **Thoughts:** Kind of irritated with myself for not realizing that issue, you know, instantly. _*sigh*_ Hoping to tackle the end of the intro and on to the river proper on the weekend, hopefully. Hopefully. Maybe.
 
 **Link to work:** [Instagram post](https://www.instagram.com/p/BnTf_bCBMOP/)
+
+### Day 41: October 26, 2018
+#### Hours spent coding: ~2
+
+**Today's Progress**: Mostly some planning and tweaking to try to get the ```wellFedToday``` functionality to work properly. Had to plan out what changes I needed to make to the two eating functions so that ```wellFedToday``` is flagged and respected.
+
+**Thoughts:** Slow progress tonight, but the planning helped! Would do more work but I've got to be up in the morning for family stuff.
+
+**Link to work:** [Instagram post](https://www.instagram.com/p/BpbSRhSBdma/)
