@@ -477,7 +477,7 @@ So that sucked. I spent like 90 minutes trying everything from type juggling to 
 
 **Thoughts:** Slow progress tonight, but the planning helped! Would do more work but I've got to be up in the morning for family stuff.
 
-**Link to work:** [Instagram post](https://www.instagram.com/p/BpbSRhSBdma/)
+**Link to work:** [Instagram post](https://www.instagram.com/p/BpbTRYwB6VF/)
 
 ### Day 42: October 28, 2018
 #### Hours spent coding: ~1.5
