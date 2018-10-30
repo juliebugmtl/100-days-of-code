@@ -1,5 +1,7 @@
 # 100 Days Of Code - Log
 
+Hi, I'm Julie and I'm writing a text-based, thinly-disguised trivia game in PHP. This is my 100 Days of Code log.
+
 #### Blog: [https://digitalurbanite.net](https://digitalurbanite.net)
 
 ### Day 1: September 4, 2018
@@ -487,3 +489,14 @@ So that sucked. I spent like 90 minutes trying everything from type juggling to 
 **Thoughts:** Important, small step of progress today. Took yesterday off, owing to family stuff around pumpkin carving. I'd thought for sure that I'd code well into the night afterwards, but passed out on my couch for like three hours instead. Whoops. Anyway, still made progress tonight and feeling good about that!
 
 **Link to work:** [Instagram post](https://www.instagram.com/p/BpgKWtMhnNy/)
+
+### Day 43: October 29, 2018
+#### Hours spent coding: ~1.5
+
+**Today's Progress**: Finished up the eating functions and started in on the sleeping functions! Realized, yet again, that I have to modify some database tables because where do I put the ```builtShelterToday``` flag? And where do I put the ```weatherTonight``` value? So I added a column for the shelter being built in the user table and edited the miscData table to insert the weather one, which should be a game-wide event. Well, I'm not sure, actually, but that's how I wrote it. I might rethink it later.
+
+Added a ```checkForBarb``` function, which is a fun in-joke with co-workers, but really refers to what might happen if you have _too many_ fish on you.
+
+**Thoughts:** I got the "great" idea to add in Shelter/Weather checks, so I need to deal with those tomorrow. One day, my database tables will no longer change every other day, I swear. Nearly out of the intro, which is both terrifying and exhilirating. But now, bed.
+
+**Link to work:** [Instagram post](https://www.instagram.com/p/Bpi1JyyhUg2/)
