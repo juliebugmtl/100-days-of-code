@@ -500,3 +500,12 @@ Added a ```checkForBarb``` function, which is a fun in-joke with co-workers, but
 **Thoughts:** I got the "great" idea to add in Shelter/Weather checks, so I need to deal with those tomorrow. One day, my database tables will no longer change every other day, I swear. Nearly out of the intro, which is both terrifying and exhilirating. But now, bed.
 
 **Link to work:** [Instagram post](https://www.instagram.com/p/Bpi1JyyhUg2/)
+
+### Day 44: October 30, 2018
+#### Hours spent coding: ~2.5
+
+**Today's Progress**: Finished up ```#Hacktoberfest```, which is exciting, then spent time on my game. One of my switch statements is basically broken because it keeps going to the second case for some reason. That bears investigation. Speaking of bears, the Barb functionality for the sleep routine works great! I added preliminary stuff for weather and a check for building shelter. I'm also rethinking whether or not I should have those things, hahaha.
+
+**Thoughts:** Super tired and wish I could have gotten more work in on the game. At 12:01am on the 1st, National Novel Writing Month starts, so most of tomorrow night (Halloween) will be spent planning out my novel. I've got some bits figured out, but no coding tomorrow night unless I am miraculously done planning by like, 10pm. I'm hoping I'll get to keep actually coding over the next month, though I know I'll probably spend a lot of my "coding hours" writing trivia questions. Which is fine. The point of this for me is to propel me forward in terms of this game project. Just wonder how I'm going to juggle the game project and writing. Should be interesting, at any rate.
+
+**Link to work:** [Instagram post](https://www.instagram.com/p/BplegEbjb_W/)
