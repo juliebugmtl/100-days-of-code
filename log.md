@@ -509,3 +509,14 @@ Added a ```checkForBarb``` function, which is a fun in-joke with co-workers, but
 **Thoughts:** Super tired and wish I could have gotten more work in on the game. At 12:01am on the 1st, National Novel Writing Month starts, so most of tomorrow night (Halloween) will be spent planning out my novel. I've got some bits figured out, but no coding tomorrow night unless I am miraculously done planning by like, 10pm. I'm hoping I'll get to keep actually coding over the next month, though I know I'll probably spend a lot of my "coding hours" writing trivia questions. Which is fine. The point of this for me is to propel me forward in terms of this game project. Just wonder how I'm going to juggle the game project and writing. Should be interesting, at any rate.
 
 **Link to work:** [Instagram post](https://www.instagram.com/p/BplegEbjb_W/)
+
+### Day 45: January 10, 2019
+#### Hours spent coding: ~1
+
+**Today's Progress**: Well, I started up Docker and opened up Sublime and stared at my code and tried to reacquaint myself with things. It has been a long-ass break. I wasn't able to code at all in November and then December was over before I knew it and here we are, the 10th of January, and at like, 11pm is when I started even looking at code. I'm rusty as hell. I have no idea what 90% of stuff does right now. I'm going to have to spend time this weekend just catching up on what on earth all of this I've written does.
+
+**Thoughts**: It was remarkably easy to just keep going back in October. I'd made coding a habit. And then I broke it. Time to get back to it. It was incredibly daunting just to launch Docker and then go to the command line and be like... uh, ```docker-compose build```??? Is that how this thing works? But I've dipped my toes in again and now I feel a little less intimidated by my own work. I keep forgetting, underestimating, the massive scope of this project. But I've spent some time in the last couple of days planning stuff out, so I'm hoping to start doing timelines and milestones and all of that.
+
+Right now, I think my goal is for an alpha launch by February 18. Hah. We'll see how that works out. I think I could do it, too. Everything I'm coding at the moment (for the intro) is going to be used in the game itself. There are some things I'll need to add, but maybe I'm closer than I think. If I can dedicate 10-12 hours minimum to coding for the next 4-5 weeks, then that's 40-60 hours of coding. That's plenty of time to actually accomplish things.
+
+**Link to work:** [Instagram post](https://www.instagram.com/p/Bse4DdfBsXr/)
