@@ -520,3 +520,32 @@ Added a ```checkForBarb``` function, which is a fun in-joke with co-workers, but
 Right now, I think my goal is for an alpha launch by February 18. Hah. We'll see how that works out. I think I could do it, too. Everything I'm coding at the moment (for the intro) is going to be used in the game itself. There are some things I'll need to add, but maybe I'm closer than I think. If I can dedicate 10-12 hours minimum to coding for the next 4-5 weeks, then that's 40-60 hours of coding. That's plenty of time to actually accomplish things.
 
 **Link to work:** [Instagram post](https://www.instagram.com/p/Bse4DdfBsXr/)
+
+### Day 46: February 2, 2019
+#### Hours spent coding: ~4
+
+**Today's Progress**: Father, forgive me, it has been 23 days since my last update... I swear I have a good reason. It's because I'm spending a ton of my free time doing family research ahead of my trip TO SCOTLAND. I'm going with work in early April and then sticking around for a week. My dad's side of the family is English and Scottish. His grandfather was English and all three other grandparents were Scottish. The English grandfather married a Scottish woman from Aberdeenshire and I've seen a ton of that family-related stuff (and also, I'm not going to Aberdeen on this trip) so I'm focused on my dad's mom's family, since both of her parents were from Edinburgh. It's been a trip and a half and I've been doing all this research in my "free time". So, yeah, not a lot of coding going on. I am bad and I should feel bad!
+
+That said, I jumped back into it on Saturday (it's after 5am on Sunday right now) and made some actual progress!
+
+First, if I logged in as a non-admin, I kept getting "redirected too many times" errors. This is because in my ```checkAdmin()``` function, I had a stupid redirect. Initially, that function was only used when accessing the admin menu, but I decided to make life easier for myself (and only made it harder!) by inserting an `if` statement on a page to show the admin menu link. And then that borked the non-admins. Fixed!
+
+Next, I had an issue where I'd forgotten to remove my limit on fishing, so I removed ```&& ($fishValue < 3)``` from that ```if``` statement and fishing is fine. Fish 'till you have 1000 fish, that's cool! Just watch out for bears...
+
+I'm also adding complexity because apparently that's what I do for fun. Instead of just "rain" and "sun" for weather conditions, I'm gonna have a 5% chance of a storm, plus 15% chance of rain that isn't a storm and then 80% chance for sun. Of course, the code I'd already written to take weather into account only accounts for `0` and `1` as options, so I'm gonna need to rewrite that because I _like_ the idea of a stupid storm.
+
+Speaking of complexity, as I'd mentioned back in _October_, I'm also adding shelter. Basically, to get max energy every day, you need to eat ```X``` amount of food and you have to have a shelter to avoid the bad weather. I specifically state in the intro that you take a bit of time to build yourself a shelter, so I had to find where I set all the initial variables and then add a ```builtShelterToday``` flag so that when the user goes to sleep (and then gets tossed into the proper game), they get full energy if they've eaten enough.
+
+And speaking of full energy, ughhhhh, what a PITA that was to code at this point. I had some funkiness happening with some functions around energy, but I fixed them! Basically, instead of returning back to the page if someone _had_ been ```wellFed```, they continued through the loop and would end up with 70 energy instead of 100. Just had to define the variable ```$newEnergyValue = 100``` and then ```return $newEnergyValue```, which breaks them out and returns the proper value.
+
+I also fixed something small, but important. If Barb and the kids show up, your food count at the top of the screen is what it _was_ before the Barb function runs. Then it runs, so I had to define that, if that occurs, ```$fishValue = 0``` and then re-display that after the description of the event. I'm feeling pretty good about that one.
+
+Finally, I'm actually editing this file locally instead of on GitHub. Figure it's about time, hahahaha.
+
+**Thoughts**: It's been hard to find time, but I also haven't felt too motivated to code lately. I don't know why. I enjoy it. Life's gotten in the way, I guess? I've been writing, researching, watching TV... 
+
+But I was watching the latest video by [Mike Boyd](https://github.com/mikeboydvideo/), who has a great [YouTube channel](https://www.youtube.com/channel/UCIRiWCPZoUyZDbydIqitHtQ). The latest video is all about him [coding his own game](https://www.youtube.com/watch?v=s12npdDmGUc) in JavaScript, and it's a pretty darn good little piece of work! It totally motivated me to get back to it, at least on Saturday. Last month, I said an alpha launch could occur by February 18. That is, uh, rather unlikely. ;) I still need about 40ish hours, I think, before I can get this thing going where I want it to go and open it up to a friends and family alpha. With any luck, March 4 could be a possibility. I'm quite advanced in my family research and I don't _think_ I have too many more direct ancestors to track down ahead of my trip. Hopefully, some of my time spent doing genealogy can be repurposed to coding.
+
+Anyway, here's a video to about 25ish minutes of my coding and trying to fix the energy stuff. Hopefully it won't be another 3+ weeks before I have another update!
+
+**Link to work:** [Instagram post](https://www.instagram.com/p/Btad5naB6VK/)
