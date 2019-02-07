@@ -549,3 +549,21 @@ But I was watching the latest video by [Mike Boyd](https://github.com/mikeboydvi
 Anyway, here's a video to about 25ish minutes of my coding and trying to fix the energy stuff. Hopefully it won't be another 3+ weeks before I have another update!
 
 **Link to work:** [Instagram post](https://www.instagram.com/p/Btad5naB6VK/)
+
+### Day 47: February 6, 2019
+#### Hours spent coding: ~1.5
+
+**Today's Progress**: I started off tonight wanting to ensure that my database for, well, _data_, was going to be able to be populated. You see, I want statistics for all the questions. I want to know how many times a question is asked and how many times it's answered correctly. I also want to be able to get those stats by category and I think, since I've used the `question_id` from the `main_questions` table in my `questionData` table, that it should be relatively easy to write a simple SQL query to do that. So I now have an admin-only page where I can go in to populate that `questionData` table. This is, obviously, not ideal. But I've got it happening programmatically! So I go to the page and it runs a function that counts the number of rows in `main_questions`. Then it offsets it by 3 (so it starts at 4) and adds those rows to `questionData` with columns for the `question_id`, `asked` and `correct`.
+
+Why does it start at four? Because I have three introductory questions that you have to answer correctly to start things off.
+
+I do this because, presently, I don't know how many questions I have. Well, I do. As it happens, it's like, 290 right now. But I only know that because of the function to count the rows! I'm hoping to launch the game with like, 4000 questions, so I have a long way to go here. The admin page counting/inserting of the rows is useful too, because if I add, I don't know, 1000 questions, I don't have to change anything there. Still, there's probably a more efficient way to do it than a for loop.
+
+With that done, I can start adding stats on each action. Every time you catch a fish, iterate that. Every time you eat a fish, iterate that, etc. Of course, I do need to get the user out of the intro still, but we'll get there.
+
+**Thoughts**: I spent some time with a friend of mine the other night, trying to get this going on an AWS instance, but we failed. Well, I failed. My friend doesn't know anything about Docker and I can't figure out how to get my Docker MySQL database to get spun up on his RDS instance. That's a challenge for later on, but it was neat to try to get things going. We got the PHP part of things running, but kept running into an error in terms of contacting the MySQL server. It was running, we just couldn't reach it and it wasn't running on the RDS instance, like I said.
+
+At least this bit of database work makes me feel good about having managed to make some progress. I definitely have to stop just adding complexity to All The Things, though...!
+
+**Link to work:** [Instagram post](https://www.instagram.com/p/Btkd1i9haZt/)
+
