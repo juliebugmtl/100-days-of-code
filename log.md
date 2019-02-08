@@ -567,3 +567,19 @@ At least this bit of database work makes me feel good about having managed to ma
 
 **Link to work:** [Instagram post](https://www.instagram.com/p/Btkd1i9haZt/)
 
+### Day 48: February 7, 2019
+#### Hours spent coding: ~2.5
+
+**Today's Progress**: I tackled stats tonight, at least in the sense of displaying them on the admin pages. So the queries are written in the code and they work. Then they're displayed properly on various admin pages. On the to-do list remains complex question statistics, but so far, I can get a count of all questions asked, all questions answered correctly and then get a percent of total questions answered correctly (rounded to two decimal places, thank you very kindly).
+
+For later, I want complex question stats -- the above, but per question or per category. Like, who knows what Dy is the chemical symbol for? (Fun fact: it's dysprosium.) Is that going to be more or less difficult than naming Supergirl's adoptive sister? (That would be Alex Danvers.) And is that going to be more or less difficult than naming the capital of Lativa? (That's Riga.) I do eventually want to get all those kinds of stats in.
+
+So the next step is actually building this stuff into the functions. Each time you catch a fish, increment the counter. Each time you each a fish, increment the counter. And so on and so forth. I also have a place to stash the weather for overnight stuff, which will help me to get out of the intro at some point. Why must I always add complexity before finishing the simple things? My creativity is my kryptonite here.
+
+**Thoughts**: I sat down with a pen and paper and sketched out what I needed to do and I also fixed my data tables to populate them with 0s because they weren't being populated originally, so it was "empty set" results instead of the 0s I wanted to show. Whoops. Anyway, I spent a lot of time messing around in the command line interface of MySQL and figuring out how to join things again, so that was also useful. It felt good, too. I wish I'd learned more than "SQL Essentials" during my diploma. I'd love to do a more in-depth SQL course at school again.
+
+Or maybe I'll just do it through Udemy? I dunno, we'll see.
+
+Not sure how much coding will happen this weekend, unfortunately, but hopefully at least some. It feels really good to get back into it.
+
+**Link to work:** [Instagram post](https://www.instagram.com/p/BtnHTm_h42o/)
