@@ -583,3 +583,20 @@ Or maybe I'll just do it through Udemy? I dunno, we'll see.
 Not sure how much coding will happen this weekend, unfortunately, but hopefully at least some. It feels really good to get back into it.
 
 **Link to work:** [Instagram post](https://www.instagram.com/p/BtnHTm_h42o/)
+
+### Day 49: February 9, 2019
+#### Hours spent coding: ~4
+
+**Today's Progress**: I had to refactor how I make all my database instances tonight. I was not pleased. Basically, I had included database classes in certain required files. This caused conflicts because the instance names would already be in use. So I separated out the three different database PDO connections into three separate files and now I call them when needed. (Actually, that's a lie. That's the goal. Right now, I'm just adding all three of them as required files any time I'm touching a database.)
+
+Then, I got all the increments for stats going on any food-related action -- catching or eating a fish, finding food, eating food, plus Barb's visit count and the total number of fish Barb (and kids) have eaten. It wasn't too hard to do, which is nice, but it was a bit tedious to find a good way to do it and then basically copy it to the remaining five actions. Plus testing.
+
+I also tested out registration (while testing to make sure I included the database connections on all appropriate files) and I'm pleased it's still working properly, as is the SendGrid integration. :)
+
+Oh, I also eliminated some divide-by-zero errors in the stats, where there haven't been wins or there haven't been questions asked.
+
+**Thoughts**: I still don't know how I want weather to work. Should it be a one-off check that fires when someone goes to sleep? Should it be a maintenance event that happens every night for everyone? I don't know. I kind of like the randomness of it (also fixed a bug there). Still, gotta figure out weather and the shelter thing.
+
+Moving ever-closer to actually leaving the intro and getting people out on to the river. With questions. And answers. Eek. :)
+
+**Link to work:** [Instagram post](https://www.instagram.com/p/Btsis7XBFa-/)
