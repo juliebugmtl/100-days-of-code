@@ -600,3 +600,12 @@ Oh, I also eliminated some divide-by-zero errors in the stats, where there haven
 Moving ever-closer to actually leaving the intro and getting people out on to the river. With questions. And answers. Eek. :)
 
 **Link to work:** [Instagram post](https://www.instagram.com/p/Btsis7XBFa-/)
+
+### Day 50: February 12, 2019
+#### Hours spent coding: ~2
+
+**Today's Progress**: The good news is I got weather to work. So that's a good thing. The not great news is that I'm bashing my head against the wall when it comes to the intro questions. As things stood, I was iterating on questions weather you were right or wrong. I also had no idea why I'd chosen that particular way to go through things. So I decided to rewrite it. But I was paralyzed with indecision and didn't get much done. The result is that the intro questions do not currently work. Blah.
+
+**Thoughts**: Feeling pretty annoyed with my lack of overall progress tonight. I'm sure it'll be like cleaning -- you get a bigger mess first before you get to where you want to be, but still. I'm annoyed.
+
+**Link to work:** [Instagram post](https://www.instagram.com/p/Btz8h-eBWSx/)
