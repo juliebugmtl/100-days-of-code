@@ -604,8 +604,27 @@ Moving ever-closer to actually leaving the intro and getting people out on to th
 ### Day 50: February 12, 2019
 #### Hours spent coding: ~2
 
-**Today's Progress**: The good news is I got weather to work. So that's a good thing. The not great news is that I'm bashing my head against the wall when it comes to the intro questions. As things stood, I was iterating on questions weather you were right or wrong. I also had no idea why I'd chosen that particular way to go through things. So I decided to rewrite it. But I was paralyzed with indecision and didn't get much done. The result is that the intro questions do not currently work. Blah.
+**Today's Progress**: The good news is I got weather to work. So that's a good thing. The not great news is that I'm bashing my head against the wall when it comes to the intro questions. As things stood, I was iterating on questions whether you were right or wrong. I also had no idea why I'd chosen that particular way to go through things. So I decided to rewrite it. But I was paralyzed with indecision and didn't get much done. The result is that the intro questions do not currently work. Blah.
 
 **Thoughts**: Feeling pretty annoyed with my lack of overall progress tonight. I'm sure it'll be like cleaning -- you get a bigger mess first before you get to where you want to be, but still. I'm annoyed.
 
 **Link to work:** [Instagram post](https://www.instagram.com/p/Btz8h-eBWSx/)
+
+### Day 51: February 16, 2019
+#### Hours spent coding: ~4
+
+**Today's Progress**: I reworked the intro questions. And they even seem to work. I need to double-check on how I trigger the intro done flag, because I think I need to hit that if they've answered question 3. Still, the intro questions basically all work properly. And if you show up at `introq2.php` and you've already answered questions 1 and 2, you get bumped to 3. Or if you go to 1 and all three are done, you get bumped to `intro-done.php`. There was a lot of time wasted thinking I'd done my comparisons wrong when, in reality, it was a copy/paste error and I'd neglected to call the proper variable on Q2 and Q3 of the intro.
+
+With that done, more or less (again, need to double-check triggering the intro-done flag), I think I'm finally ready to move out of the intro onto the river itself. Of course, I could refactor the intro questions so I'm doing less repeating of myself, but frankly, that can wait. My brain aches from all of this.
+
+Anyway, so I'm going to need to create a bunch of admin commands, including a maintenance routine, that can be run manually during testing and such. So that's going to be... interesting. At least I already have a bunch of admin stuff and an admin menu all set up.
+
+Should be interesting to work on tomorrow!
+
+**Thoughts**: Ugh, definitely so very frustrated by how inefficient I think the intro questions are done, plus the copy/paste error, which was maddening. I feel like I should be able to have just one page that changes based on whether the question is answered correctly or not, but I can't seem to work it out, so I just added three flags to the user table, one for each intro question.
+
+I was also annoyed by the whole reworking of the questions all week, so much so that I didn't code at all after Tuesday, but I think the time away helped a bit, because now it all seems to work. Good stuff, I guess.
+
+I also decided to capture my screen, rather than use my camera to film it, to make a video tonight. Pretty pleased with it. It was relatively easy to do. Link below. (And hahaha you can definitely see when I just copy/paste a bunch of stuff and completely miss out on changing two instances of the number "1".)
+
+**Link to work:** [Instagram post](https://www.instagram.com/p/Bt-f-F1hdiR/)
