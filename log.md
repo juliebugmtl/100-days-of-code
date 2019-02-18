@@ -628,3 +628,16 @@ I was also annoyed by the whole reworking of the questions all week, so much so 
 I also decided to capture my screen, rather than use my camera to film it, to make a video tonight. Pretty pleased with it. It was relatively easy to do. Link below. (And hahaha you can definitely see when I just copy/paste a bunch of stuff and completely miss out on changing two instances of the number "1".)
 
 **Link to work:** [Instagram post](https://www.instagram.com/p/Bt-f-F1hdiR/)
+
+### Day 51: February 17, 2019
+#### Hours spent coding: ~3
+
+**Today's Progress**: SUPER excited about all the progress I made tonight! I exit the intro cleanly and move into the real game where fishing, foraging and eating either of those things work just fine because I basically used exactly the same functions as in the intro! Super pleased with myself. Paddling took some work, but things are working in the sense that you can paddle (currently endlessly as I don't have energy costs or checks implemented yet) and get questions and answers and you can actually go down the river! And it'll save your location! So I'm really pleased with that. I definitely need to tweak some story aspect stuff, plus add energy checks and costs, plus add statistics to the paddle function, but that's working out nicely.
+
+Also to do:
+
+- Shelter & weather so I can do sleep function stuff.
+
+**Thoughts**: All of that frustration from the last few days is gone and I'm having to drag myself away from the code to go to bed. Really looking forward to this week and all the coding that will come with it!
+
+**Link to work:** [Instagram post](https://www.instagram.com/p/BuAuQUIB3pj/)
