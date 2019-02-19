@@ -629,7 +629,7 @@ I also decided to capture my screen, rather than use my camera to film it, to ma
 
 **Link to work:** [Instagram post](https://www.instagram.com/p/Bt-f-F1hdiR/)
 
-### Day 51: February 17, 2019
+### Day 52: February 17, 2019
 #### Hours spent coding: ~3
 
 **Today's Progress**: SUPER excited about all the progress I made tonight! I exit the intro cleanly and move into the real game where fishing, foraging and eating either of those things work just fine because I basically used exactly the same functions as in the intro! Super pleased with myself. Paddling took some work, but things are working in the sense that you can paddle (currently endlessly as I don't have energy costs or checks implemented yet) and get questions and answers and you can actually go down the river! And it'll save your location! So I'm really pleased with that. I definitely need to tweak some story aspect stuff, plus add energy checks and costs, plus add statistics to the paddle function, but that's working out nicely.
@@ -641,3 +641,12 @@ Also to do:
 **Thoughts**: All of that frustration from the last few days is gone and I'm having to drag myself away from the code to go to bed. Really looking forward to this week and all the coding that will come with it!
 
 **Link to work:** [Instagram post](https://www.instagram.com/p/BuAuQUIB3pj/)
+
+### Day 53: February 18, 2019
+#### Hours spent coding: ~1.5
+
+**Today's Progress**: Ughhhhh, all of my excitement from yesterday vanished when I finally got to sit down and code tonight. Still, kept working at things and got paddling in the game to a decent state. Still doesn't cost any energy, so there's an energy check to do there. I did set up a "first paddle" experience that explains how that aspect of the game will work, though, and have a subsequent check for it, so that's a good thing done... although it _did_ mean editing my user table. Again. And I really do need to look at refactoring the database calls for the trivia questions because apparently what I was doing a year ago is completely different from what I'm doing now. Go figure.
+
+**Thoughts**: I've had a headache for a couple of days now -- much worse on Sunday than Monday, but it's still lingering and annoying and I'm tired. And cranky. I blame that for not getting more advanced tonight, despite looking forward to it all day long.
+
+**Link to work:** [Instagram post](https://www.instagram.com/p/BuDXJp1heBR/)
