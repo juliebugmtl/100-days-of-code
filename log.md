@@ -650,3 +650,12 @@ Also to do:
 **Thoughts**: I've had a headache for a couple of days now -- much worse on Sunday than Monday, but it's still lingering and annoying and I'm tired. And cranky. I blame that for not getting more advanced tonight, despite looking forward to it all day long.
 
 **Link to work:** [Instagram post](https://www.instagram.com/p/BuDXJp1heBR/)
+
+### Day 54: February 19, 2019
+#### Hours spent coding: ~2
+
+**Today's Progress**: Little progress tonight -- more thinking than anything else. I had to figure out when to "charge" the users energy for paddling down the river. I finally decided to do it when they submit the answer, rather than on page load, or in the various functions in the page. I think that's fair, because it still lets you submit the answer and, consequently, move forward, without getting a new question if you don't have enough energy for that next question, if I run the check on the page load. Which I do. I think that has _also_ gotten rid of the fact that a player's energy can dip into the negatives. Whoops! hahaha. I also hardened that a bit by saying, on that charge energy function, that if the energy is equal to 2 or less, set the energy to 0, in case they _somehow_ manage to get to paddle with less than 3 energy.
+
+**Thoughts**: Headache continues. I hate my sinuses. And weather fluctuations. Can't it just be -20C all winter long? Then 15C in the spring and fall and 25C in the summer? Anyway, I think I'm getting there. Energy will be reduced going forward. Just need to figure out building shelter and sleeping/waking up next, I think. Not the most glamourous of things, but neither is refactoring the fetching of the trivia questions, which I have steadfastly avoided...
+
+**Link to work:** [Instagram post](https://www.instagram.com/p/BuF5lw3Blk-/)
