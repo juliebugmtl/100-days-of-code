@@ -659,3 +659,40 @@ Also to do:
 **Thoughts**: Headache continues. I hate my sinuses. And weather fluctuations. Can't it just be -20C all winter long? Then 15C in the spring and fall and 25C in the summer? Anyway, I think I'm getting there. Energy will be reduced going forward. Just need to figure out building shelter and sleeping/waking up next, I think. Not the most glamourous of things, but neither is refactoring the fetching of the trivia questions, which I have steadfastly avoided...
 
 **Link to work:** [Instagram post](https://www.instagram.com/p/BuF5lw3Blk-/)
+
+### Day 55: February 20, 2019
+#### Hours spent coding: ~2
+
+**Today's Progress**: Paddling seems to have been in a good state when I left it last night, so I didn't have to do too much there. I did a few small things, one of which was `trim()` my user's answers, because ```toronto ``` or ``` toronto``` was incorrect. So I now properly trim whitespace for both the first paddle and the subsequent paddles. Yay! I also removed the autofocus on the input field for the first paddle because it was incorrectly scrolling the page down to the field. Whoops.
+
+Hands down, the _worst_ part of the night was the realization that _if someone builds a shelter and then paddles away, they are abandoning their shelter_. So I would have to either stop them from doing so or maybe warn them somehow and then unflag their `builtShelter` flag. I'm in favour of letting users do many dumb things, if they wish, so long as they understand that it may not be the wisest thing to do in the future. So I have the water nymph show up and be like "human, wtf are you doing?" and I give the user _two chances_ to not abandon camp. Still, if they do, their `builtShelter` flag is removed.
+
+Of course, I had to build checks around this. Could they paddle? Would they have the three energy to do so? Etc, etc, blah, blah. And shelter building isn't completely done -- it's charging energy oddly, so that's something to look into.
+
+Once I get the shelter thing down, it's time to figure out how to make sleeping work. I want to build in a daily maintenance. When that happens at, say, 3am ET (GMT-5 -- I'll have to look at coding something for that pesky Daylight Saving Time which is nearly upon us), the following things need to occur:
+
+* all "today" variables reset: fish/food eaten today, food units eaten today, wellfed today, build shelter today
+* weather changes
+* energy is restored based on a stupidly complex math problem that takes weather, shelter and being well-fed into consideration
+
+Once I've got that done, I'll need to start adding question statistics and such.
+
+Other things I'll eventually need to code:
+
+* email inactive players (haven't played in 30 days)
+* email inactive players that their accounts will be deleted tomorrow (haven't played in 44 days)
+* delete inactive players (haven't played in 45 days)
+* random events - I think it would be cool for some elements of randomness to occur. Maybe even some easter eggs -- like a specific answer to a specific question will do X, Y or Z... But maybe that's a version 2 kind of thing.
+
+And, of course, that whole "winning the game" thing, too:
+
+* Check win state; if winner, freeze everything for one day
+* If win state granted yesterday, reset everyone to 0km, add winner to hall of fame (should code that too!)
+
+Of course, we're a long way off from someone actually winning the game. There are trials and such to be coded, but we're not quite there yet.
+
+**Thoughts**: There's still a lot to do and a long way to go before a real launch, but I'm hopeful that I can show my brother, at least, and have him play for a bit to see what it looks like.
+
+I have to get to writing more questions, too. I want to launch with 4000 questions. I have like, oh, 400ish? And that includes the periodic table of the elements questions. hahaha.
+
+**Link to work:** [Instagram post](https://www.instagram.com/p/BuIgvSuB_Iq/)
