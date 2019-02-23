@@ -696,3 +696,29 @@ Of course, we're a long way off from someone actually winning the game. There ar
 I have to get to writing more questions, too. I want to launch with 4000 questions. I have like, oh, 400ish? And that includes the periodic table of the elements questions. hahaha.
 
 **Link to work:** [Instagram post](https://www.instagram.com/p/BuIgvSuB_Iq/)
+
+### Day 56: February 22, 2019
+#### Hours spent coding: ~2
+
+**Today's Progress**: Well, it was less coding and more trying to figure out what the hell was going wrong. I wanted to get things working on my laptop because I'm going to have 2 hours on a train tomorrow where I can code and I'm super looking forward to that. For whatever reason, my Docker IPs are messed up on the laptop. Like, the Dockerfile is correct, but I'm connecting to the database from the wrong IP, so that's all messed up. Works just fine on my desktop. I don't get it.
+
+Anyway, I fixed that, it just means changing my MySQL creation file to give permissions to the right user on the right IP.
+
+Then, I wanted to insert some more questions I've got. I'd previously had a heck of a time inserting questions via CSV, but, after a lot of trouble, I got some proper CSV questions inserted. I'm feeling pretty jazzed about that. Close to 500 questions total!
+
+Other things I did:
+
+* trim whitespace on intro questions!
+* remembered to `removeShelter()` from user intro -- need to think about if I want to remove it in the future after it's been used. Probably not??
+
+So not only do I want to code on the train, but I really want my brother to test out the game. Hopefully, while on the train, I can get some progress done on sleep functionality, because that's definitely not finished yet. I have this ugly call to a function that's currently commented out:
+
+`//$finalEnergyValue = finalEnergyRestoration($user, $wellFedToday, $newEnergyValue, $shelter, $weather);`
+
+It's commented out because I only just put in shelter and weather over the last few days, but also because my `finalEnergyRestoration()` function scares the bejeesus out of me. So there's that to tackle on the train. hahaha.
+
+**Thoughts**: Looking forward to a proper user test from my brother as we hang out in Ottawa for a bit. I'm going to Ottawa for like, 24 hours, at the behest of my parents and my brother, but mainly to see my nephews and to hang out with a friend of mine from the area. It's ridiculous that all of us are going to Ottawa so my brother can pick up a *tent* of all things, but there ya go. Somehow my parents decided to make it a big family trip and, against my better judgement, I'm going.
+
+But I'm still going to make my brother play my game. ;)
+
+**Link to work:** [Instagram post](https://www.instagram.com/p/BuNvfEKhUTW/)
