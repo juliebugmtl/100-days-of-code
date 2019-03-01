@@ -722,3 +722,26 @@ It's commented out because I only just put in shelter and weather over the last 
 But I'm still going to make my brother play my game. ;)
 
 **Link to work:** [Instagram post](https://www.instagram.com/p/BuNvfEKhUTW/)
+
+### Day 57: February 28, 2019
+#### Hours spent coding: ~3
+
+**Today's Progress**: It took me a while to wrap my head around how to tackle it, but I finally got a manual maintenance routine going by coding all the functions required for it -- which is good, because this will eventually run automatically, albeit with some additions. I can now hit that button as an admin and the following will happen:
+
+- weather gets set
+- weather gets fetched
+- we count the total number of users in the users table
+- we run a `for` loop that iterates up to and including the final user in the table
+- the loop takes their `wellFedToday` and `shelterBuiltToday` values from their `user_id` (cleverly snagged from the variable I'm using that increments all the way up to and including that final user)
+- then it calls the `dailyChecks` function, which analyzes the `weather`, `wellFedToday` and `shelterBuiltToday` data and puts the user into one of 12 separate scenarios
+- it calculates the `newEnergyValue` based on one of those 12 scenarios and returns the value back to the maintenance routine
+- then we `clearDailyValues` on that `user_id`
+- then we restore the energy by passing `$userId` and `$newEnergyValue` through the `finalEnergyRestoration` function
+
+Whew.
+
+That took a lot of energy. No pun intended. :)
+
+**Thoughts**: So that's great, because now I can continue to test and eventually write up some more functions that will email users who haven't logged in, etc, etc, etc. I have a lot left to do, but this at least fixes the user data and makes them able to play another day's worth of stuff. Additionally, I got some good feedback from my brother. Plus, I know what the first "trial" is gonna be. Lots of stuff to do this weekend, including adding more questions. I've got 100 Red Dwarf questions and should have 100 questions each in the subjects of Star Trek TNG, DS9 and VOY. Why, yes, I AM a nerd, thank you for asking. ;)
+
+**Link to work:** [Instagram post](https://www.instagram.com/p/Buda7aEhq7T/)
