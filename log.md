@@ -745,3 +745,46 @@ That took a lot of energy. No pun intended. :)
 **Thoughts**: So that's great, because now I can continue to test and eventually write up some more functions that will email users who haven't logged in, etc, etc, etc. I have a lot left to do, but this at least fixes the user data and makes them able to play another day's worth of stuff. Additionally, I got some good feedback from my brother. Plus, I know what the first "trial" is gonna be. Lots of stuff to do this weekend, including adding more questions. I've got 100 Red Dwarf questions and should have 100 questions each in the subjects of Star Trek TNG, DS9 and VOY. Why, yes, I AM a nerd, thank you for asking. ;)
 
 **Link to work:** [Instagram post](https://www.instagram.com/p/Buda7aEhq7T/)
+
+### Day 58: March 2, 2019
+#### Hours spent coding: ~2
+
+**Today's Progress**: So after the success with regards to the maintenance routine, my brother kindly inquired about the use-case where, oh, you know, maybe someone wasn't going to log in every single day. Is it fair to punish them for not eating or building shelter or whatever when they come back?
+
+... no.
+
+SIGH.
+
+So tonight, I refined things by checking the `lastLogin` and doing some time-based math and finally figured out how to do that.
+
+It all came down to this:
+
+```    $lastLogin = strtotime($lastLogin);
+    $time = strtotime("now");
+
+    $timeSinceLastLogin = $time - $lastLogin;
+```
+
+If that's greater than 86400 seconds, which is 24 hours, then I skip that iteration of the loop. In my searching, I realized that I might have learned about `continue` in a loop during my classes, but I definitely had forgotten about it entirely. I've known about `break` since Java class, almost two years ago, but I legitimately don't remember if I did learn about `continue`. Anyway, that works BEAUTIFULLY.
+
+```
+        $skipCheck = skipMaintenanceCheck($i);
+
+        if ($skipCheck == true) {
+
+            echo "User " . $i . " has not logged in for 24 hours. Skipping.<br>";
+
+            continue;
+
+        }
+```
+
+Not too shabby!
+
+Things are coming along super well. I have a lot of little things to focus on now. I'm slowly, but surely, getting to the point of a closed alpha!
+
+And while I haven't done a ton of coding in a couple of days, I've been writing up some questions. Not sure how many I have at this point. I'll finish up the _Star Trek_ ones tomorrow and import them all and I'll do a count.
+
+**Thoughts**: Feeling pretty great about the fix to the maintenance routine, though I do feel kind of dumb for not having thought it through first. Well, that's what alpha and beta testing are for, right? Right.
+
+**Link to work:** [Instagram post](https://www.instagram.com/p/BuiwIEXhAj5/)
