@@ -788,3 +788,19 @@ And while I haven't done a ton of coding in a couple of days, I've been writing 
 **Thoughts**: Feeling pretty great about the fix to the maintenance routine, though I do feel kind of dumb for not having thought it through first. Well, that's what alpha and beta testing are for, right? Right.
 
 **Link to work:** [Instagram post](https://www.instagram.com/p/BuiwIEXhAj5/)
+
+### Day 59: March 3, 2019
+#### Hours spent coding: ~2.5
+
+**Today's Progress**: To be fair, tonight's work was less about coding, per se, and more about testing. What comes _before_ alpha testing? Because that's what I was doing, hahaha. I worked to format some CSVs, I imported them, dropped my question_id column, then recreated it so I wouldn't get blank questions and so that my number of questions is correct. The number currently, by the way, without _Star Trek: Voyager_ questions included, is 711. That's 100 on the Montreal Canadiens, Red Dwarf, TNG and DS9. Then we have questions for the periodic table of elements, Supergirl, the Canadian capitals, the American capitals and European capitals. I'm halfway through 100 questions for _Star Trek: Voyager_, but apparently I haven't rewatched that show as often as TNG. I knew that, but I guess I didn't realize just how much of TNG is ingrained in me and how much Voyager just... isn't. So that'll bring the questions up to 811. I have about 38 more categories (so 3800 or so questions) I have sketched out. No questions for any of them have been written, so that's gonna be interesting... So perhaps a launch with close to 5000 questions?
+
+Anyway, so I played the game for 45 minutes, pausing for a few seconds to run maintenance several times, and got like, 687 kilometers down the river. I'm going to add some stats to questions, plus keeping track of days, etc, so I can get a better idea of how long it's going to take someone to do this sort of thing. I want the entire game to play through in about 30-45 days before we pause it and reset it. Right now, it feels like:
+
+* The days go by too quickly. I'm not sure if that's because the user is expending too much energy or if it's because I know the answers to most of the questions.
+* You can make too much progress too quickly. If I played for about 10 days' worth and I got to 687km, that's a little ahead of my 30 day projection, assuming the length of the river is about 1800km, but more importantly, it makes 45 days of gameplay damn near impossible, particularly if I do grant people a bonus for questions right in a row.
+
+So I need to observe this kind of thing and track the stats in my playing (and in alpha) and we'll see how it goes. I may lessen the energy requirement on a few things to extend the length of the day, but may make the river longer to extend the length of the game.
+
+**Thoughts**: It's pretty freaking cool to _play your own game_ for 45 minutes straight.
+
+**Link to work:** [Instagram post](https://www.instagram.com/p/Buk_q_fBsUE/)
