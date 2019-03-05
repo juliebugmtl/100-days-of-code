@@ -804,3 +804,14 @@ So I need to observe this kind of thing and track the stats in my playing (and i
 **Thoughts**: It's pretty freaking cool to _play your own game_ for 45 minutes straight.
 
 **Link to work:** [Instagram post](https://www.instagram.com/p/Buk_q_fBsUE/)
+
+### Day 60: March 4, 2019
+#### Hours spent coding: ~3
+
+**Today's Progress**: Today's work was more about adding 100 Voyager questions (oh god, I am not as familiar with it as I am with TNG and DS9!) and then working with the data rather than anything else.
+
+I imported it and so my questions table then had 811 questions. Prior to today, I'd have my intro questions (3 of them) pre-inserted into the table on creation, followed by a number of additions for things like the _Supergirl_ category and the different capitals categories and the category about the Montreal Canadiens. So tonight, after importing yet another CSV that was yet another PITA, I _exported_ the table (wow, super easy!) and then copied that file from that container to my actual computer (also super easy!) and then replaced my original main questions SQL file on load with the exported one. It seems to have worked???? If so, that's _ridiculously_ simple. I did connect to the container and the MySQL server within and selected the entire table and it all came up properly, it looks like. I mean, all 811 questions are there. I guess we'll see tomorrow if I can access them properly. (I'm thinking I can.)
+
+**Thoughts**: This is going to make life a lot easier, both for backups and potential restorations, but just adding more questions in the future.
+
+**Link to work:** [Instagram post](https://www.instagram.com/p/BunfASghA7X/)
