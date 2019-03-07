@@ -815,3 +815,18 @@ I imported it and so my questions table then had 811 questions. Prior to today, 
 **Thoughts**: This is going to make life a lot easier, both for backups and potential restorations, but just adding more questions in the future.
 
 **Link to work:** [Instagram post](https://www.instagram.com/p/BunfASghA7X/)
+
+### Day 61: March 6, 2019
+#### Hours spent coding: ~2
+
+**Today's Progress**: Fun fact, the MySQL dump of the questions table worked fine when loaded on startup and throughout my pre-alpha testing of the gameplay functionality! I had a couple of glitches that I had to fix (missed semicolons, whoops) but that was easily done.
+
+I then tackled two global stats I had yet to do: total days played and total distance travelled.
+
+Days played is easy -- I pre-populate the table at creation at `1`, then pull from the `miscData` table and increments by one each time maintenance is run. Easy.
+
+Total distance was a little more complicated, so I eventually settled on adding it all up at maintenance. Each user has a `location`, you see, so in my maintenance routine, we now `SELECT SUM(location) as totalDistanceTravelled from users` and then pass that through to the `distanceData` table. Took a few tries, but it seems to be working just fine, now. There are a lot of stats left to do -- question stats, for instance -- but I was pleasantly surprised to see I'd already done all the simple food stats. Go me. :D
+
+**Thoughts**: Whenever I sit down at the computer to work on things, I'm now torn between writing All The Questions and writing All The Code. Tonight was a coding night, but maybe I should have written more questions... Anyway. Time for bed.
+
+**Link to work:** [Instagram post](https://www.instagram.com/p/Busk_PYBwxt/)
