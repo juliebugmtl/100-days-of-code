@@ -830,3 +830,12 @@ Total distance was a little more complicated, so I eventually settled on adding 
 **Thoughts**: Whenever I sit down at the computer to work on things, I'm now torn between writing All The Questions and writing All The Code. Tonight was a coding night, but maybe I should have written more questions... Anyway. Time for bed.
 
 **Link to work:** [Instagram post](https://www.instagram.com/p/Busk_PYBwxt/)
+
+### Day 62: March 7, 2019
+#### Hours spent coding: ~1.5
+
+**Today's Progress**: Started in on stats for questions, which seem to be working okay, except they're not incrementing for some reason. Like, I _know_ I've answered specific questions more than once in this session and yet the `asked` column in `questionData` only increments by one and then sticks there. Something to look into. But not at 4am on a weeknight. Whoops. That's what I get for napping on my couch for almost four hours.
+
+**Thoughts**: Some progress is still progress. Gotta remember that.
+
+**Link to work:** [Instagram post](https://www.instagram.com/p/BuvcP77hgq8/)
