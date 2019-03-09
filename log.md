@@ -839,3 +839,14 @@ Total distance was a little more complicated, so I eventually settled on adding 
 **Thoughts**: Some progress is still progress. Gotta remember that.
 
 **Link to work:** [Instagram post](https://www.instagram.com/p/BuvcP77hgq8/)
+
+### Day 63: March 8, 2019
+#### Hours spent coding: ~1
+
+**Today's Progress**: The aforementioned issue was that I wasn't _returning_ the data to the PHP page and so it never incremented beyond 1 because it assumed a null value instead of something like a 1 or a 6 or a 100 because there was no data to increment. *_sigh_* Learning. Always learning.
+
+So basic question stats now work, which is great. Eventually I'll be able to create more complex stats but this is decent for now.
+
+**Thoughts**: Stop coding in the middle of the night, self.
+
+**Link to work:** [Instagram post](https://www.instagram.com/p/Bux5_LbBpaU/)
