@@ -850,3 +850,12 @@ So basic question stats now work, which is great. Eventually I'll be able to cre
 **Thoughts**: Stop coding in the middle of the night, self.
 
 **Link to work:** [Instagram post](https://www.instagram.com/p/Bux5_LbBpaU/)
+
+### Day 64: March 9, 2019
+#### Hours spent coding: ~1.5
+
+**Today's Progress**: Got exceedingly little done, but at least what I did is visible in-game. I added colour and such to the correct/incorrect responses. And found a new bug. If you reload the page and resubmit the form multiple times on a correct answer, you _keep going forward_. I mean, yes, your energy decreases, but you keep progressing down the river. This needs to be fixed PRONTO.
+
+**Thoughts**: Progress is slow, but it's there. Also, DST can suck it.
+
+**Link to work:** [Instagram post](https://www.instagram.com/p/Bu0mo48B2XZ/)
