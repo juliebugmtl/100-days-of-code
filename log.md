@@ -859,3 +859,12 @@ So basic question stats now work, which is great. Eventually I'll be able to cre
 **Thoughts**: Progress is slow, but it's there. Also, DST can suck it.
 
 **Link to work:** [Instagram post](https://www.instagram.com/p/Bu0mo48B2XZ/)
+
+### Day 65: April 29, 2019
+#### Hours spent coding: ~1.5
+
+**Today's Progress**: Was unpleasantly surprised to remember where I'd left off with the reloading bug. For real. I could have lived just fine without that. I spent a good 45+ minutes tinkering with my form page. Maybe I should go the AJAX route if I can't get the check to work otherwise?
+
+**Thoughts**: Hoo boy, it's been a while. In my defense, I spent two-plus weeks in Scotland and that was awesome. Now that I have some semblance of that mythical thing called _free time_ again, though, I hope to code more!
+
+**Link to work:** [Instagram post](https://www.instagram.com/p/Bw3UmwphtJm/)
