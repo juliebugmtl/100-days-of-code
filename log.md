@@ -868,3 +868,14 @@ So basic question stats now work, which is great. Eventually I'll be able to cre
 **Thoughts**: Hoo boy, it's been a while. In my defense, I spent two-plus weeks in Scotland and that was awesome. Now that I have some semblance of that mythical thing called _free time_ again, though, I hope to code more!
 
 **Link to work:** [Instagram post](https://www.instagram.com/p/Bw3UmwphtJm/)
+
+### Day 66: April 30, 2019
+#### Hours spent coding: ~1.5
+
+**Today's Progress**: Decided to scrap the self-posting form for the questions because I can't figure out how to not allow reloading to continue to bug the game out. I now point to a `processquestion.php` page, that does all the math and stuff and then points to either `questioncorrect.php` or `questionwrong.php`. Trouble is, I _think_ I may have broken user sessions now.
+
+This is my unamused face. >.>
+
+**Thoughts**: I legitimately have no idea what I'm doing and I'm flailing around and how did I ever think I could do anything with code ever??? And it was all going so WELL before I discovered this bug. :(
+
+**Link to work:** [Instagram post](https://www.instagram.com/p/Bw54Z5AhahL/)
