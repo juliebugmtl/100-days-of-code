@@ -879,3 +879,14 @@ This is my unamused face. >.>
 **Thoughts**: I legitimately have no idea what I'm doing and I'm flailing around and how did I ever think I could do anything with code ever??? And it was all going so WELL before I discovered this bug. :(
 
 **Link to work:** [Instagram post](https://www.instagram.com/p/Bw54Z5AhahL/)
+
+### Day 67: May 27, 2019
+#### Hours spent coding: ~1
+
+**Today's Progress**: Yeah, user sessions are good and truly busted. I spent a good chunk of time actually trying to get self-posting to work, but if you legitimately know the (short) answer to a (short) question and answer it in under 2 seconds, then you're basically just as fast as reloading the page, so I can't tell if you're cheating. As such, I really do have to go the process page route.
+
+It doesn't help that I haven't touched my code in a month, either, I know, but also I can't seem to find anything anywhere, in a book or online, that's doing what I'm attempting. Which causes me concern.
+
+**Thoughts**: Still flailing like a flaily thing, but I guess if I just _rewrite_ a few things from _scratch_, I can get things to work. Kind of.
+
+**Link to work:** [Instagram post](https://www.instagram.com/p/Bx_iRUBAEe9/)
