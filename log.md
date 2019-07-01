@@ -890,3 +890,27 @@ It doesn't help that I haven't touched my code in a month, either, I know, but a
 **Thoughts**: Still flailing like a flaily thing, but I guess if I just _rewrite_ a few things from _scratch_, I can get things to work. Kind of.
 
 **Link to work:** [Instagram post](https://www.instagram.com/p/Bx_iRUBAEe9/)
+
+### Day 68: June 30, 2019
+#### Hours spent coding: ~1
+#### Hours spent organizing: ~2
+
+**Today's Progress**: Well, after trying a few things, I said screw it and reverted to my (admittedly broken) version of the game where if you hit reload, it acknowleges a right answer. I'm going to have to do more testing to figure out how to not break sessions when I'm using a processing file. Near as I can figure, it just completely removed the username from the session, so none of my database calls worked, since there was no user ID or username.
+
+I also merged `gameplay` into `master` because I do have a few other branches I want to work on and want them all to be based off of this version, because at least this version sort of works. It felt really good to merge that branch, since I'd created it in like, uh, September.
+
+Then, I just organized _all the things_. I took my Trello boards, updated them, added the GitHub powerup, then started linking those cards to GitHub issues. Then, I labelled all the GitHub issues and milestoned them. I feel pretty organized and productive, now, and even ready to start tackling things to see the milestone progress bar move.
+
+**Thoughts**: In adding milestones, I came up with dates. Alpha should launch September 2. Beta on February 2, 2020. And v1.0, no later than July 1, 2020.
+
+Yes, I am terrified of these dates. But I think they're mostly feasible.
+
+November and December are basically worthless to me in terms of getting stuff done, due to National Novel Writing Month and the holidays and such. That gives me all of September, October and January to get beta stuff done for February 2.
+
+Stuff in the first half of next year (company trip, possible vacation, family stuff) will really mean I don't get much done in April or May, which leaves me February, March and June to get stuff done for launch.
+
+And throughout the beta processes, I'll hopefully be gaining valuable statistical data to help me figure out if people are cheating, if questions are too easy, too hard, etc.
+
+That said, I think my goals are reasonable and attainable. I'm just gonna have to do A LOT in the next two months.
+
+**Link to work:** [Instagram post](https://www.instagram.com/p/BzXpqIngCDr/)
