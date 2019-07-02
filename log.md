@@ -914,3 +914,18 @@ And throughout the beta processes, I'll hopefully be gaining valuable statistica
 That said, I think my goals are reasonable and attainable. I'm just gonna have to do A LOT in the next two months.
 
 **Link to work:** [Instagram post](https://www.instagram.com/p/BzXpqIngCDr/)
+
+### Day 69: July 1, 2019
+#### Hours spent coding: ~3
+
+**Today's Progress**: There was a fair amount of organizing left to do -- tasks I hadn't thought through first and such. I'm mostly done with that now, I think.
+
+I also did the primary separation between `users` and `players`, as I'm going to have, at minimum, two instances of the game: blue and green -- one that's monetized with optional microtransactions and one that isn't. So I have one user account and then I have players in game green and game blue. I've found it easiest to think of it as the user being the person and the player being the person's representation within the games.
+
+Of course, the separation of these things has almost certainly completely borked everything. The database loads up without error, but I haven't dared to try registering a new user yet. Still, it's progress. 
+
+**Thoughts**: Still moderately terrified, but pleased at separating out the `users` data from the `players` data. I also took the opportunity to add a few more flags in each table. I feel like I will never stop adding more crap to my `users` table (and, well, now the `players` one as well).
+
+It feels good to be excited about things.
+
+**Link to work:** [Instagram post](https://www.instagram.com/p/BzaWmlTAmKI/)
