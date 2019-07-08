@@ -929,3 +929,16 @@ Of course, the separation of these things has almost certainly completely borked
 It feels good to be excited about things.
 
 **Link to work:** [Instagram post](https://www.instagram.com/p/BzaWmlTAmKI/)
+
+### Day 70: July 7, 2019
+#### Hours spent coding: ~5
+
+**Today's Progress**: I did a lot today! I fixed my registration and blacklist issues, added DKIM CNAME records to my domain name so my email isn't viewed as spam, figured out how to define a variable for "game" so I don't rewrite the entire thing twice, then started the arduous task of adding the `$game` variable to, oh, every call, and modifying all the database calls to ensure it's calling from the game's table and not the `users` table.
+
+It's not done yet and the intro isn't fully working, but at least registration and login are fine now. More fixing this week, for sure.
+
+**Thoughts**: I'm very proud of myself for trying to figure out a way not to repeat my code. The code between the games should be identical (more or less) and it doesn't make sense to have literally two (or more) copies, so I'm pleased I figured out how to pass a variable, then store it in the session, plus add it to the database for the `active_game` in the user table.
+
+The easy thing is, of course, to duplicate everything, but that's not the programmatic way to do it. So I found a programmatic solution and I feel pretty good about it. Just a couple of years ago, it never would have dawned on me to try it in a programmatic way, and yet, here we are.
+
+**Link to work:** [Instagram post](https://www.instagram.com/p/BzpNc5MAIvh/)
