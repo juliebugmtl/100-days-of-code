@@ -942,3 +942,18 @@ It's not done yet and the intro isn't fully working, but at least registration a
 The easy thing is, of course, to duplicate everything, but that's not the programmatic way to do it. So I found a programmatic solution and I feel pretty good about it. Just a couple of years ago, it never would have dawned on me to try it in a programmatic way, and yet, here we are.
 
 **Link to work:** [Instagram post](https://www.instagram.com/p/BzpNc5MAIvh/)
+
+### Day 71: July 9, 2019
+#### Hours spent coding: ~2
+
+**Today's Progress**: Well, something is wrong with either:
+
+- my database call
+- my database user permission
+- my code in general
+
+Because I'm getting undefined variable errors for a variable that should be defined, but the MySQL command isn't getting run. So there's definitely something forked up there. But I'm too tired to figure it out. Bedtime.
+
+**Thoughts**: Frustrated that something that should be working isn't.
+
+**Link to work:** [Instagram post](https://www.instagram.com/p/BzuPALlgUbZ/)
