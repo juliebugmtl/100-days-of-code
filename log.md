@@ -957,3 +957,22 @@ Because I'm getting undefined variable errors for a variable that should be defi
 **Thoughts**: Frustrated that something that should be working isn't.
 
 **Link to work:** [Instagram post](https://www.instagram.com/p/BzuPALlgUbZ/)
+
+### Day 72: July 11, 2019
+#### Hours spent coding: ~1
+
+**Today's Progress**: Hooooo boy, I figured out the issue. First, I thought it was that my user registration hadn't gone through (since I just inserted the user) and that might be causing issues, but no, because I went through registration this time and it still didn't work.
+
+Then, I managed to narrow things down to my `$stmt->execute();` not actually executing. Doing a `print_r($stmt)` showed me that things should be okay, but it would. not. execute.
+
+On a whim, I replaced my variable for the table name with the table name itself... and it _worked_.
+
+Fun fact, everyone -- you cannot `bindValue` for a table name. So if you don't know the name of the table, you'll want to concatenate it into your statement.
+
+Didn't do a lot of work tonight, but the work I did was very, very important. #smallvictories
+
+**Thoughts**: I'm very pleased I figured that out. That's going to fix a lot of issues going forward, I'm sure. Getting closer to having the databases and game stuff separated.
+
+Also, it makes me ridiculously pleased every time I get a registration email sent to me from SendGrid because HELL YEAH, I INTEGRATED THAT API ALL BY MYSELF. :)
+
+**Link to work:** [Instagram post](https://www.instagram.com/p/BzzX0HhgXbt/)
