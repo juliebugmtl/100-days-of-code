@@ -976,3 +976,20 @@ Didn't do a lot of work tonight, but the work I did was very, very important. #s
 Also, it makes me ridiculously pleased every time I get a registration email sent to me from SendGrid because HELL YEAH, I INTEGRATED THAT API ALL BY MYSELF. :)
 
 **Link to work:** [Instagram post](https://www.instagram.com/p/BzzX0HhgXbt/)
+
+### Day 73: July 13, 2019
+#### Hours spent coding: ~8
+
+**Today's Progress**: Lots of progress in separating the databases. I basically have to define all the different tables in variables in the session as soon as the game is chosen and then refer to those for a variety of things. When I'm done with this, the users and players will be separated, plus the various game stats will be separated... and the Barb function will be rewritten to work well regardless of which version of the game is being played.
+
+**Thoughts**: I had the most hilarious error earlier, where, upon raising my fishing skill, it claimed:
+
+`fishing skill has increased to greeo!`
+
+Still have no idea why that was happening, but I did end up fixing it in the end. It amused me tremendously, though.
+
+This separation is slow, meticulous work. Rather than just do a search and replace (and I did think about it), I figured I'd just go through the game and test things and fix the errors as they come up. So far, so good. Load page, see errors, fix errors. Load page again, see more errors, fix more errors. Rinse and repeat.
+
+Currently stuck on rewriting Barb to not repeat myself a zillion times, but apparently switch statements are not made to play nice with two variables? I'm going to have to have switches nested in if statements, I think. We'll see. It's 4:03am and I'm definitely too tired to do this.
+
+**Link to work:** [Instagram post](https://www.instagram.com/p/Bz4f4V1Akg0/)
