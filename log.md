@@ -993,3 +993,24 @@ This separation is slow, meticulous work. Rather than just do a search and repla
 Currently stuck on rewriting Barb to not repeat myself a zillion times, but apparently switch statements are not made to play nice with two variables? I'm going to have to have switches nested in if statements, I think. We'll see. It's 4:03am and I'm definitely too tired to do this.
 
 **Link to work:** [Instagram post](https://www.instagram.com/p/Bz4f4V1Akg0/)
+
+### Day 74: July 14, 2019
+#### Hours spent coding: ~6
+
+**Today's Progress**: Holy crap, I think things are done!
+
+All my functions appear to work.
+
+I even rewrote the Barb event. (400 lines of code later...!) It's something I've wanted to do since like, January? February? But especially in May, when my friend Andrew deliberately broke the functionality of the game by hoarding food. Like a jerk.
+
+It took me most of the day as I had to push through some logic issues, but I think all's well and I am now back to where I was except now I can define any game name. There are some small optimizations to do, for sure, but things _work_, which is just so exciting. This is gonna knock out 3-4 issues in my GitHub repo.
+
+Also, I figured out why my fishing skill had `increased to greeo`. This is apparently what happens when you pass more than the number of expected parameters. So I was passing, for example, `$user` and `$game` and `$game_players_table` and the function was only expecting two, the first and the last. So that got wiggy. This happened a lot.
+
+Another thing -- `debugDumpParams();` is my favourite.
+
+**Thoughts**: I feel awesome. I want to write more stuff right now, but it's 1:41am and also, I literally don't have more of the game yet. I need to tidy up a number of small things, but I need to get the sleep function written. Maintenance... crap. I just realized maintenance hasn't been edited. Well, that'll get done tomorrow, since I'll run maintenance on both games when I run it, so that'll be interesting to work out. Still, that's probably the only thing I'm missing.
+
+Whew.
+
+**Link to work:** [Instagram post](https://www.instagram.com/p/Bz7SJhNgnUH/)
