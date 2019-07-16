@@ -1014,3 +1014,12 @@ Another thing -- `debugDumpParams();` is my favourite.
 Whew.
 
 **Link to work:** [Instagram post](https://www.instagram.com/p/Bz7SJhNgnUH/)
+
+### Day 75: July 15, 2019
+#### Hours spent coding: ~1
+
+**Today's Progress**: Bleh, not quite done. Still a few pesky things to fix, including how to set the weather for both games simultaneously.
+
+**Thoughts**: Dinked around a bit and things mostly work, which is good. Will need to do another sweep tomorrow, but not feeling it tonight.
+
+**Link to work:** [Instagram post](https://www.instagram.com/p/Bz9rn0CAb3E/)
