@@ -1023,3 +1023,16 @@ Whew.
 **Thoughts**: Dinked around a bit and things mostly work, which is good. Will need to do another sweep tomorrow, but not feeling it tonight.
 
 **Link to work:** [Instagram post](https://www.instagram.com/p/Bz9rn0CAb3E/)
+
+### Day 76: July 16, 2019
+#### Hours spent coding: ~2
+
+**Today's Progress**: I'm never going to be done separating everything, I swear to God.
+
+Looks like the gameplay is pretty solid (well, okay, there's a very odd thing happening with regards to some answers being very wrong and yet being correct), but stats are a mess. I'm having to rewrite a lot of little things, which is annoying.
+
+**Thoughts**: I'm definitely annoyed. I just want to be done with this branch and merge it to master and I know I'm basically the only person who will know if it's done or not, but I cannot bring myself to merge an incomplete branch. GRR, ARGH.
+
+Bedtime.
+
+**Link to work:** [Instagram post](https://www.instagram.com/p/B0AcJDMgIfc/)
