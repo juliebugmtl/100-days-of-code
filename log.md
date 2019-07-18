@@ -1036,3 +1036,16 @@ Looks like the gameplay is pretty solid (well, okay, there's a very odd thing ha
 Bedtime.
 
 **Link to work:** [Instagram post](https://www.instagram.com/p/B0AcJDMgIfc/)
+
+### Day 77: July 17, 2019
+#### Hours spent coding: ~2
+
+**Today's Progress**: Stats are still a mess, though marginally less of a mess than yesterday. No more errors, fatal or uncaught or otherwise. Just... wrong data. Everywhere. So I gotta fix that up.
+
+Also, question verification? TOTALLY BUSTED. But that's okay. I can fix that. I need to rewrite asking questions in the first place due to that reload bug. But first, we'll get stats working okay.
+
+**Thoughts**: If I don't merge this branch to master by Friday night before I go to bed, I may chuck my computer out my window.
+
+Just sayin'.
+
+**Link to work:** [Instagram post](https://www.instagram.com/p/B0C9ebMASx-/)
