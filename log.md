@@ -1049,3 +1049,22 @@ Also, question verification? TOTALLY BUSTED. But that's okay. I can fix that. I 
 Just sayin'.
 
 **Link to work:** [Instagram post](https://www.instagram.com/p/B0C9ebMASx-/)
+
+### Day 78: July 18, 2019
+#### Hours spent coding: ~1
+
+**Today's Progress**: Stats all seem to kind of work. At least, the database separation part of them. And so the database separation is complete and I've merged the branch to master!
+
+Question verification and funneling the stats info are _slightly_ busted, but we'll get to that soon enough.
+
+Since I probably just have to rewrite the question functionality anyway, I'll tackle:
+
+* question verification
+* question stats
+* repeat check (no dupes within 100 questions)
+
+This is my goal this weekend.
+
+**Thoughts**: It felt so good to merge to master. :D
+
+**Link to work:** [Instagram post](https://www.instagram.com/p/B0FX2kKgT1_/)
