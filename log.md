@@ -1068,3 +1068,22 @@ This is my goal this weekend.
 **Thoughts**: It felt so good to merge to master. :D
 
 **Link to work:** [Instagram post](https://www.instagram.com/p/B0FX2kKgT1_/)
+
+### Day 79: July 19, 2019
+#### Hours spent coding: ~1.5
+
+**Today's Progress**: Fixed question verification and question stats. Part of one of those issues is that I just, you know, _wasn't calling the function_. Another was a misnamed function and yet another was me accidentally passing the `$questionId` twice in the same function, for some unknown reason.
+
+I blame fatigue.
+
+_time: 4:37am_
+
+Yeah, definitely fatigue.
+
+**Thoughts**: I need to do the repeat check functionality, but I want to fix the reload bug first, since I'll _probably_ have to rewrite paddling as it is... but couldn't I just copy over the repeat check session stuff over to a new paddling version? Probably.
+
+I think I'm just putting off the hard work of redoing paddling. There's just _so much stuff_ that happens and I'm sure I'll just end up breaking it. Again. Not like it's not broken now (a reload should definitely not assume you got the question right), but if you're not out to explot things, it works beautifully.
+
+Alas. I guess all of this is this weekend's work.
+
+**Link to work:** [Instagram post](https://www.instagram.com/p/B0IdvdzgYye/)
