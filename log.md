@@ -1087,3 +1087,18 @@ I think I'm just putting off the hard work of redoing paddling. There's just _so
 Alas. I guess all of this is this weekend's work.
 
 **Link to work:** [Instagram post](https://www.instagram.com/p/B0IdvdzgYye/)
+
+### Day 80: July 20, 2019
+#### Hours spent coding: ~5
+
+**Today's Progress**: Well, on the bright side, my question IDs are now being moved into the session, and that's persisting as it should.
+
+On the downside, I cannot, for the life of me, figured out why `array_slice` isn't working appropriately. I want to slice the aforementioned array to the 100 last elements, but it just won't do that. Works fine on a test file with an array with 130 elements. Does not work in my `paddle.php` file.
+
+This is probably a sign that I should give up on the session stuff for now until I rewrite paddling.
+
+I still don't want to rewrite paddling.
+
+**Thoughts**: I felt pretty great when I actually got my session array of question IDs to work. Too bad the great feeling was relatively short-lived, due to the frustration from `array_slice`. I'm sure I'm doing something wrong, but it's nearly 5am, so... bedtime.
+
+**Link to work:** [Instagram post](https://www.instagram.com/p/B0LDDsQA_5I/)
