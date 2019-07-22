@@ -1102,3 +1102,24 @@ I still don't want to rewrite paddling.
 **Thoughts**: I felt pretty great when I actually got my session array of question IDs to work. Too bad the great feeling was relatively short-lived, due to the frustration from `array_slice`. I'm sure I'm doing something wrong, but it's nearly 5am, so... bedtime.
 
 **Link to work:** [Instagram post](https://www.instagram.com/p/B0LDDsQA_5I/)
+
+### Day 81: July 21, 2019
+#### Hours spent coding: ~5
+
+**Today's Progress**: Still stuck on the array thing.
+
+I have determined that the array does get deleted when I unset it, so it's not like the 100 elements from `questionList` are getting added to values that are already there.
+
+It's just taking the entire array and not the last 100 elements.
+
+Still works fine on my test array file.
+
+Still not working in my `paddle.php` file.
+
+And yet, I still don't want to rewrite paddling.
+
+But I think I really, really need to, now.
+
+**Thoughts**: Arrays can kiss my ass and are making me rethink the importance of not having repeating questions when my final question tally will be close to 6000...
+
+**Link to work:** [Instagram post](https://www.instagram.com/p/B0NIO3JgMh8/)
