@@ -1123,3 +1123,16 @@ But I think I really, really need to, now.
 **Thoughts**: Arrays can kiss my ass and are making me rethink the importance of not having repeating questions when my final question tally will be close to 6000...
 
 **Link to work:** [Instagram post](https://www.instagram.com/p/B0NIO3JgMh8/)
+
+### Day 82: July 25, 2019
+#### Hours spent coding: ~1
+
+**Today's Progress**: Yep. _Still_ stuck on the array thing.
+
+I can't explain why `array_slice` seems to work differently in my test array file versus my actual game file. But it does seem to. So that's weird.
+
+In other news, in my intro and in my maintenance routines, I was passing different variables into the same function, which resulted in my daily values not being cleared on one or the other. The maintenance needs to go by `user_id`, since it iterates on all users numerically, while the intro sleep was trying to pass a username. Then I made it pass a username and broke the maintenance function because it can't iterate on `julie`. Whoops.
+
+**Thoughts**: Arrays can still kiss my ass.
+
+**Link to work:** [Instagram post](https://www.instagram.com/p/B0XxYP7AAp4/)
