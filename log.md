@@ -1136,3 +1136,18 @@ In other news, in my intro and in my maintenance routines, I was passing differe
 **Thoughts**: Arrays can still kiss my ass.
 
 **Link to work:** [Instagram post](https://www.instagram.com/p/B0XxYP7AAp4/)
+
+### Day 83: July 27, 2019
+#### Hours spent coding: ~2
+
+**Today's Progress**: Fixed the repeat check functionality!
+
+I started to think that if there wasn't anything wrong with my use of `array_slice`, as proven by my array test page, then maybe there was something wrong _with my array_. (I may have channelled my inner Beverly Crusher with that logic.)
+
+Turns out my `questionList` array is _multidimensional_. So when I was slicing it, since there's just one element at the top level of my array, I had to add the index to the name in order to access the elements within it, so `$questionList[0]` instead of `$questionList`.
+
+Well, that's solved and I've merged to master. Probably still need to rewrite paddling, but the repeat check is a big thing done and I learned a lot about sessions and arrays over the last, oh, 13ish hours of this project.
+
+**Thoughts**: Arrays can _still_ kiss my ass, but at least things work. Planning to tackle something slightly easier tomorrow -- leaderboards in each game.
+
+**Link to work:** [Instagram post](https://www.instagram.com/p/B0dEK8JADYp/)
