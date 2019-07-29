@@ -1151,3 +1151,20 @@ Well, that's solved and I've merged to master. Probably still need to rewrite pa
 **Thoughts**: Arrays can _still_ kiss my ass, but at least things work. Planning to tackle something slightly easier tomorrow -- leaderboards in each game.
 
 **Link to work:** [Instagram post](https://www.instagram.com/p/B0dEK8JADYp/)
+
+### Day 84: July 28, 2019
+#### Hours spent coding: ~3
+
+**Today's Progress**: Put together the leaderboards! It was pretty simple. The worst part was the styling of everything, which was a bit finicky.
+
+The interesting thing here was that, when people register, I insert them into All The Games so that user IDs remain the same across the board, so I wanted to omit people in the leaderboards if they hadn't actually logged into that game. But I didn't want to add a new flag and check for that or anything.
+
+Instead, I thought I'd exclude people at 0km, but that's silly, because you can log in and fish your life away at 0km, if you want to.
+
+I do have an `introCampDone` flag, though, so I used that and came up with what I think is a pretty neat SQL query, which fetches usernames and locations where the user's record in question has the `introCampDone` flag, then I order it by descending location.
+
+Works pretty well!
+
+**Thoughts**: It feels good to merge to master twice in under 24 hours.
+
+**Link to work:** [Instagram post](https://www.instagram.com/p/B0ey_MZAk8v/)
