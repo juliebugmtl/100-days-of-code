@@ -1168,3 +1168,22 @@ Works pretty well!
 **Thoughts**: It feels good to merge to master twice in under 24 hours.
 
 **Link to work:** [Instagram post](https://www.instagram.com/p/B0ey_MZAk8v/)
+
+### Day 85: August 1, 2019
+#### Hours spent coding: ~2
+
+**Today's Progress**: Still avoiding rewriting paddling, since at least the repeat check now works. :D What I decided to tackle tonight (at like, 11:30pm) was going to sleep. There wasn't actually a `sleep.php` file at all, so if you'd hit sleep, you'd get a 404 not found. Then I'd run the manual maintenance routine and then just hit the back button.
+
+Now, you get to sleep and have the choice to return to the main menu. I mean, I guess you could hit back from the sleep page, but all it really is designed to be is a way for someone to elegantly quit the game, so to speak.
+
+Man, I miss the old text games like Trade Wars 2002 and Legend of the Red Dragon, where you had menu screens and you didn't have a back button of any kind. Anyway, I decided not to worry about the back button functionality. If they don't want to do that, they don't have to.
+
+Coming back _into_ the game was interesting, though. How to check if a user has played since maintenance? Yep, adding in yet another column to my player table, which gets reset at maintenance time. With that in, I'll also be able to customize the waking sequence based on if they've returned, based on their energy levels, tell them why they only have, for example, 40 energy after a terrible night of sleep, etc.
+
+**Thoughts**: Some tinkering required here, but it should be some easy logic insertion. I'm pretty jazzed that most of it's done and works.
+
+And crudpuppies, I forgot to ensure *Eat* was an option on the waking up. I'll have to add that logic if they're not well-fed.
+
+Tomorrow. :)
+
+**Link to work:** [Instagram post](https://www.instagram.com/p/B0porPGAAW7/)
