@@ -1187,3 +1187,24 @@ And crudpuppies, I forgot to ensure *Eat* was an option on the waking up. I'll h
 Tomorrow. :)
 
 **Link to work:** [Instagram post](https://www.instagram.com/p/B0porPGAAW7/)
+
+### Day 86: August 3, 2019
+#### Hours spent coding: ~3
+
+**Today's Progress**: Something dawned on me this evening -- why do I not seem to be counting days? There's logic for it. What's wrong with it?
+
+Found it. I was calling the original `miscData` associated with the original database and not the separate game databases. So it kept pulling a non-existant value from a non-existant table and then iterating it by 1, so that's why my days played were always just `1`. It wasn't that I was doing it by actual dates, no. I just messed up. haha.
+
+So I fixed that for global days played for the game. I fixed that for current days played for the user (which resets upon the game's reset), and on the total days played (which doesn't reset). This is only triggered when the user logs in for the first time after a maintenance happens.
+
+Oh, and I did include *Eat* as an option on waking up as per the last entry here.
+
+Other things yet to do in this branch:
+
+* waking up text that explains _why_ you only have X amount of energy
+* write up a couple of variations on sleep/wake text (switch statements)
+* `intro-sleep`'s waking up text should, you know, _exist_
+
+**Thoughts**: Coding on the laptop and not my desktop is, well, not ideal, but it works. I shudder to think of my data bill, though, since I'm tethering. Stupid cottage without Internet.
+
+**Link to work:** [Instagram post](https://www.instagram.com/p/B0u3KOeAiDL/)
