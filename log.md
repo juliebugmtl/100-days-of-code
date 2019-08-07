@@ -1208,3 +1208,14 @@ Other things yet to do in this branch:
 **Thoughts**: Coding on the laptop and not my desktop is, well, not ideal, but it works. I shudder to think of my data bill, though, since I'm tethering. Stupid cottage without Internet.
 
 **Link to work:** [Instagram post](https://www.instagram.com/p/B0u3KOeAiDL/)
+
+### Day 87: August 6, 2019
+#### Hours spent "coding": ~1.5
+
+**Today's Progress**: Well, it's not exactly coding, but tonight I wrote 93 questions about Superman. I am literally 7 questions from 100 and I can't think of another damn thing about Superman. And I freaking love Superman, let's be absolutely clear about this.
+
+I figured I can get 1200-1300 questions done for alpha launch and then add in questions as I go, but I definitely want to break 1000. Almost there -- I'm at 904 questions now, total. But it'll be good to get some other general knowledge questions in there before alpha, for sure.
+
+**Thoughts**: I love GitHub. What an awesome way to ensure my code can be pulled or pushed to or from another computer. I'd been like "oh no, I should get this stuff off my laptop --- BUT WAIT. I PUSHED TO GITHUB." Fabulous.
+
+**Link to work:** [Instagram post](https://www.instagram.com/p/B02jvWHgD-G/)
