@@ -1219,3 +1219,20 @@ I figured I can get 1200-1300 questions done for alpha launch and then add in qu
 **Thoughts**: I love GitHub. What an awesome way to ensure my code can be pulled or pushed to or from another computer. I'd been like "oh no, I should get this stuff off my laptop --- BUT WAIT. I PUSHED TO GITHUB." Fabulous.
 
 **Link to work:** [Instagram post](https://www.instagram.com/p/B02jvWHgD-G/)
+
+### Day 88: August 7, 2019
+#### Hours spent "coding": ~3
+
+**Today's Progress**: I finished up the Superman questions, imported them, dumped the DB, then wrote 100 questions about US presidents and did the same thing. I had a few issues that meant I had to massage the imported text -- quote marks, single quotes, commas and escaping things can be nightmarish.
+
+1011 questions, all properly formatted now!
+
+**Thoughts**: I realized that I don't run `checkForBarb` anywhere except in the intro. Lord. Must integrate that into the maintenance routine ASAP. Still also need to do the things I noted this weekend:
+
+* waking up text that explains _why_ you only have X amount of energy
+* write up a couple of variations on sleep/wake text (switch statements)
+* `intro-sleep`'s waking up text should, you know, _exist_
+
+... also, I think my sessions are broken because I feel like I'm getting repeats more often than every 100 questions. But is that because I'm using another browser window to run my maintenance event? Maybe. Gotta test that like, tomorrow.
+
+**Link to work:** [Instagram post](https://www.instagram.com/p/B05LkbzAoAG/)
