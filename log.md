@@ -1236,3 +1236,18 @@ I figured I can get 1200-1300 questions done for alpha launch and then add in qu
 ... also, I think my sessions are broken because I feel like I'm getting repeats more often than every 100 questions. But is that because I'm using another browser window to run my maintenance event? Maybe. Gotta test that like, tomorrow.
 
 **Link to work:** [Instagram post](https://www.instagram.com/p/B05LkbzAoAG/)
+
+### Day 89: August 8, 2019
+#### Hours spent coding: ~3
+
+**Today's Progress**: No new questions tonight. I went back to actually coding and tried to add the `checkForBarb` function into maintenance, which meant adding a new flag to a player's table, `barbAte` and other such nonsense. I also fixed the `checkForBarb` function -- I had set `== 6` instead of `>= 6`, so anything beyond 6 fish meant Barb doesn't show up and eat your food.
+
+**Thoughts**: Need to fix the loading text to make sure it properly tells you if Barb and the kids ate, PLUS, the things I realized I need to do from last weekend:
+
+* waking up text that explains _why_ you only have X amount of energy
+* write up a couple of variations on sleep/wake text (switch statements)
+* `intro-sleep`'s waking up text should, you know, _exist_
+
+Also haven't tested sessions. More to-dos.
+
+**Link to work:** [Instagram post](https://www.instagram.com/p/B07oXT_AutH/)
