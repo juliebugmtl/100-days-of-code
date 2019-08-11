@@ -1251,3 +1251,30 @@ I figured I can get 1200-1300 questions done for alpha launch and then add in qu
 Also haven't tested sessions. More to-dos.
 
 **Link to work:** [Instagram post](https://www.instagram.com/p/B07oXT_AutH/)
+
+### Day 90: August 10, 2019
+#### Hours spent coding: ~6
+
+**Today's Progress**: Merged `maintenance` to `master`! After way too much work on Barb and making sure that whole thing works, I then had to add a new column to player tables about energy states. I have, uh, **TWELVE** different possible energy states, so I store them in the new column as like `1113` which means `wellFed`, `shelterBuilt` and sunny weather. `1112` means the same, only rainy. `1111` means the same, only with a storm. And so on.
+
+All this to explain _why_ a user has X amount of energy on waking up.
+
+Still need to write `intro-sleep`'s waking up text.
+
+BUT. Victory regarding sessions! I figured it out. For some reason, in my `playgame` page, I was setting the question array to, uh, nothing. Like for real. I guess I was trying to initialize it?? Weird. Anyway, the question array persists in the session now. I feel super great about that.
+
+I also did up a silly image and started in on like, the main page, the about page, the terms and privacy pages, plus the contact page. I'm gonna see what my options are for sending -- PHP mailer is what I use on my personal website, but I could probably use SendGrid for this? Not sure, will need to investigate.
+
+Next up, probably the `intro-sleep` text, followed by the first paddle to normal paddle transition, which is just bad. In the same branch, I can probably also put in the colour-coding for fishing and foraging, since these are likely just small CSS changes.
+
+So after adding those to GitHub, I now have 13 open issues for alpha and 8 closed. Some are small, some might not even get looked at until beta, and a couple of them have to do with cloud hosting. Can I get it all done in three weeks? Depends on how well cloud hosting stuff goes, I guess, really. Ugh, make that 14 open issues -- I need to figure out how to trigger the maintenance routines with a cronjob.
+
+Well, make that 13 issues -- I had an issue about running an import for CSVs of questions, but we'll use a mysql dump after importing questions manually, I guess. It would be easier overall.
+
+Well, 13 issues. 3 weeks. 4 issues a week? Ehhhhhhhhh, it might be tight. We'll see.
+
+**Thoughts**: Wow. Day 90. And it's only taken me like 11 months to get to this point! hahaha. Hoo boy. I'm bad at that "consistent effort" thing. I'll be good for a few days and then stop for a week or more. Still, it's been wonderful to keep this log to see when I did make time and when I was on a streak, basically.
+
+Can't believe it's almost over, both the #100daysofcode as well as the alpha for my game.
+
+**Link to work:** [Instagram post](https://www.instagram.com/p/B1AgCXwgLn9/)
