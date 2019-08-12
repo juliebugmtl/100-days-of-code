@@ -1278,3 +1278,20 @@ Well, 13 issues. 3 weeks. 4 issues a week? Ehhhhhhhhh, it might be tight. We'll 
 Can't believe it's almost over, both the #100daysofcode as well as the alpha for my game.
 
 **Link to work:** [Instagram post](https://www.instagram.com/p/B1AgCXwgLn9/)
+
+### Day 91: August 11, 2019
+#### Hours spent coding: ~5
+
+**Today's Progress**: Ugh, I had a funky branch that was simultaneously ahead of and behind master and there are issues now that I've resolved that.
+
+Priority is getting the `questionList` array working again, which means I have to define the variable but be careful not to overwrite the variable. Probably something with `isset` will be helpful. So:
+
+- fix `intro-sleep` and such
+- write `intro-sleep` text
+- colourize fishing/foraging the way I do with questions
+- colourize first couple of answers (like in first paddle)
+- first paddle to regular paddling transition
+
+**Thoughts**: Feels like two steps forward and three steps back, sometimes. That said, I finished basic website content, including a contact form that integrates with SendGrid, so there's that. Positives.
+
+**Link to work:** [Instagram post](https://www.instagram.com/p/B1DSG58gmC7/)
