@@ -1295,3 +1295,26 @@ Priority is getting the `questionList` array working again, which means I have t
 **Thoughts**: Feels like two steps forward and three steps back, sometimes. That said, I finished basic website content, including a contact form that integrates with SendGrid, so there's that. Positives.
 
 **Link to work:** [Instagram post](https://www.instagram.com/p/B1DSG58gmC7/)
+
+### Day 92: August 12, 2019
+#### Hours spent coding: ~3
+
+**Today's Progress**: Fixed the stupid `questionList` array issue. Ultimately, it came down to this:
+
+```// Logic for session to persist
+
+if (!ISSET ($_SESSION['questionList'])) {
+
+$questionList = array();
+$_SESSION['questionList'] = $questionList;
+
+}
+```
+
+So with that, if it's not set, it'll set it. But if it _is_ set, it won't empty it. So I think that's done. That took way too long.
+
+**Thoughts**: Still feel like my progress is incredibly incremental. But at least it's progress. Right? Right.
+
+I spent a bit of time messing with the piece of code from my Instagram post tonight. But no. That code was fine. Siiiiiigh. And it's pretty, too. Well, maybe not pretty, exactly, but it's _clever_. And clever is fine by me.
+
+**Link to work:** [Instagram post](https://www.instagram.com/p/B1F9Jy1AjKu/)
