@@ -1318,3 +1318,21 @@ So with that, if it's not set, it'll set it. But if it _is_ set, it won't empty 
 I spent a bit of time messing with the piece of code from my Instagram post tonight. But no. That code was fine. Siiiiiigh. And it's pretty, too. Well, maybe not pretty, exactly, but it's _clever_. And clever is fine by me.
 
 **Link to work:** [Instagram post](https://www.instagram.com/p/B1F9Jy1AjKu/)
+
+### Day 93: August 13, 2019
+#### Hours spent coding: ~2
+
+**Today's Progress**: Finally, I got to doing some stuff that I've been meaning to do.
+
+[x] fix `intro-sleep` and such
+[x] write `intro-sleep` text
+[x] colourize first couple of answers (like in first paddle)
+[x] first paddle to regular paddling transition
+
+Hilariously, I'm not sure what to do next. Probably colour-coding fishing and foraging, then make sure I'm sanitizing user responses? Yeah, that sounds like a plan.
+
+**Thoughts**: 11 issues closed, 11 issues remain for alpha release, which is in like, oh, 3 weeks. Ish. Hopefully. Some of them are easy. Some are less easy. It's slowly, but surely, coming together.
+
+And now, bed.
+
+**Link to work:** [Instagram post](https://www.instagram.com/p/B1IkRIlg1Z2/)
