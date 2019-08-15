@@ -1324,10 +1324,10 @@ I spent a bit of time messing with the piece of code from my Instagram post toni
 
 **Today's Progress**: Finally, I got to doing some stuff that I've been meaning to do.
 
-[x] fix `intro-sleep` and such
-[x] write `intro-sleep` text
-[x] colourize first couple of answers (like in first paddle)
-[x] first paddle to regular paddling transition
+- fix `intro-sleep` and such
+- write `intro-sleep` text
+- colourize first couple of answers (like in first paddle)
+- first paddle to regular paddling transition
 
 Hilariously, I'm not sure what to do next. Probably colour-coding fishing and foraging, then make sure I'm sanitizing user responses? Yeah, that sounds like a plan.
 
@@ -1336,3 +1336,15 @@ Hilariously, I'm not sure what to do next. Probably colour-coding fishing and fo
 And now, bed.
 
 **Link to work:** [Instagram post](https://www.instagram.com/p/B1IkRIlg1Z2/)
+
+### Day 94: August 14, 2019
+#### Hours spent coding: ~1.5
+
+**Today's Progress**: Exhausted tonight. Couldn't really focus. It took way too long to figure out exactly what I'd done to return fish and foraging results and then make sure I opened and closed divs appropriately. Still to do:
+
+- colourize fishing and foraging in the intro files
+- sanitize user input
+
+**Thoughts**: I'm super burnt right now. Too much work during the day, too much coding at night, not enough sleep overall. Might just take Friday night off from coding to veg out. I guess it depends on how I feel tomorrow night and also what I have left to do before the weekend push.
+
+**Link to work:** [Instagram post](https://www.instagram.com/p/B1LFs6Pgb4n/)
