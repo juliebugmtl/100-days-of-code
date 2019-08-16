@@ -1348,3 +1348,27 @@ And now, bed.
 **Thoughts**: I'm super burnt right now. Too much work during the day, too much coding at night, not enough sleep overall. Might just take Friday night off from coding to veg out. I guess it depends on how I feel tomorrow night and also what I have left to do before the weekend push.
 
 **Link to work:** [Instagram post](https://www.instagram.com/p/B1LFs6Pgb4n/)
+
+### Day 95: August 15, 2019
+#### Hours spent coding: ~2
+
+**Today's Progress**: Still tired, but pushed through the fatigue and managed to do exactly what I planned to do:
+
+- colourize fishing and foraging in the intro files
+- sanitize user input
+
+**Thoughts**: I'm feeling pretty smart because at no time do my user's responses go into the database. They're held in a variable in the code and I run a comparison on them versus the data I'm pulling from the database. So even if you go all Little Bobby Tables on the response, nothing happens.
+
+Usernames were a little less, uh, secure, shall we say. I'd meant, ages ago, to not only rely on JavaScript validation, but had never implemented PHP validation. That's all sorted now.
+
+Passwords get hashed in my environment, so that shouldn't be an issue.
+
+I'm probably overdoing it with emails a bit, but I'm using the email format being forced in the browser _and_ using `FILTER_VALIDATE_EMAIL`, so that should be okay.
+
+Of course, all of this is just me being maybe a bit paranoid because none of my database users have DROP capabilities and stuff and I've siloed their permissions pretty well, I think. Still, I've sanitized anything that can be put into the database and the check I'm using can be (partly) seen in my Instagram post for the day.
+
+Oh, and I made the caught/failed to catch a fish and found/didn't find food stuff look pretty in the intro, too. This closes out two more issues in GitHub. Woot!
+
+Pretty tired overall, it's been a long week. But really pleased with all that I've accomplished this week.
+
+**Link to work:** [Instagram post](https://www.instagram.com/p/B1Np2j9A16z/)
