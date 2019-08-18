@@ -1372,3 +1372,23 @@ Oh, and I made the caught/failed to catch a fish and found/didn't find food stuf
 Pretty tired overall, it's been a long week. But really pleased with all that I've accomplished this week.
 
 **Link to work:** [Instagram post](https://www.instagram.com/p/B1Np2j9A16z/)
+
+### Day 96: August 17, 2019
+#### Hours spent coding: ~4
+
+**Today's Progress**: Fixed a lingering reset daily values issue in the intro earlier today, but then tackled a bunch of stuff tonight.
+
+- Screw reCaptcha. I don't think it'll be necessary, so I'll incorporate it with beta. I can't figure out how to get it to work right and be mandatory for registration and login.
+- Was very perplexed by token issues, but realized that's because I manually inserted my first two users with MySQL commands and not a proper registration, so they didn't _have_ tokens. Whoops. Fixed.
+- Closed issue 16, verifying JS doesn't mess with changing PW
+- Closed issue 39, which really only had me insert `<noscript>` warnings that JavaScript is required.
+- Closed issue 42, after realizing reCaptcha was going to be a PITA.
+- Closed the newly-opened issue 81, which had me add a "new user registration" email to the registration process, so I know when (and who) has signed up. Clearly, if traffic picks up, I need to remove that, though I am in no imminent danger of bypassing 15,000 emails a month, which I get for free.
+
+**Thoughts**: This leaves roughly five issues open and I launch in two weeks. Two of them are basically the same issue, though -- cloud deployment, basically. One of the others is something I _should probably_ do, but it's not a huge deal right now. Another is something I _must_ do to ensure proper maintenance once loaded into the cloud. The last is a critical, game-breaking bug that I definitely need to fix.
+
+Oh, and I just opened up a new one for this alpha launch -- fix my div padding.
+
+Still, all in all, things are looking good. I'm gonna try to play with cloud-related things tomorrow (?) and see what I can get accomplished.
+
+**Link to work:** [Instagram post](https://www.instagram.com/p/B1TB_BBA1Y0/)
