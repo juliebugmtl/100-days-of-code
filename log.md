@@ -1392,3 +1392,33 @@ Oh, and I just opened up a new one for this alpha launch -- fix my div padding.
 Still, all in all, things are looking good. I'm gonna try to play with cloud-related things tomorrow (?) and see what I can get accomplished.
 
 **Link to work:** [Instagram post](https://www.instagram.com/p/B1TB_BBA1Y0/)
+
+### Day 97: August 18, 2019
+#### Hours spent coding and testing and deploying and debugging: ~9
+
+**Today's Progress**: Well, on the bright side, I have the game running on AWS.
+
+On the not-so-bright-side, that was a herculean effort _and_ not everything works properly. I'm convinced it has to do with database permissions for the database users and various hostnames. I could be wrong.
+
+Still, you can register, you can play. You just can't change your email address or password. I think this is because something borks when the (perhaps not properly privileged database user) tries to make changes.
+
+I cleaned up a couple of things, plus ensured the "new user registered" email gets sent to me on registration of a new user.
+
+Other things to do which are not written down anywhere I don't think:
+
+- automate startup (includes setting weather, populating question data, setting me as admin)
+- automate maintenance (I have this as a GH issue at least)
+- SSL cert (letsencrypt)
+- get Elastic IP allocated and use it when we're all set
+- point www to the allocated IP
+- build forum on new `forum.riverofkurn.com` subdomain
+
+**Thoughts**: It's driving me ABSOLUTELY MAD not understanding why the host my database users have to connect from is different given THE EXACT SAME CODE, based on whether this is on production (the AWS server) versus my local environment. Literally, the only way to make sure it works on both environments is to have the user host be `@'%'`, which is not, you know, ideal.
+
+So, it's running, which is more than I honestly expected out of today. I was just gonna mess around with it, but props to my friend, A, who helped out for, oh, four or five hours. Today's Instagram post is me watching him play while he shares his screen. Warning: I'm loud, but you can also hear him in the background through my headphones. He is also The Worst.
+
+Also: I'm wondering if the different behaviours might be because of Docker image caching on my localhost. That said, I did post to the Docker community forums. We'll see if that's helpful. If not, I might reach out to the guy whose Docker course I took. ... could actually stand to review stuff there first, maybe.
+
+Really hoping I can sleep tonight without my brain whirring about these issues.
+
+**Link to work:** [Instagram post](https://www.instagram.com/p/B1U1bUeA9zW/)
