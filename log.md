@@ -1422,3 +1422,22 @@ Also: I'm wondering if the different behaviours might be because of Docker image
 Really hoping I can sleep tonight without my brain whirring about these issues.
 
 **Link to work:** [Instagram post](https://www.instagram.com/p/B1U1bUeA9zW/)
+
+### Day 98: August 19, 2019
+#### Hours spent coding/tinkering/etc: ~4
+
+**Today's Progress**: I am no more progressed than I was yesterday, at least not in terms of code.
+
+However, we created an Amazon AMI image for the infrastructure and will solidify it tomorrow night on what we're using as production, then probably allocate an IP for prod.
+
+We then used that AMI image for a stage instance because I basically now need to develop on stage, since none of the issues I'm seeing on prod or stage happen locally. Actually driving me crazy.
+
+Developing on stage is awkward. There's a way to use Sublime Text to modify remote files. Something to look at more tomorrow, because making tiny edits on remote files in pico is not sustainable. At least I can push to GitHub from there, so I can download the changes locally.
+
+Also, fun fact, my SendGrid shared pool is in the Spamcop database so my normal webhost is blocking, you know, ALL EMAILS from coming in. Can't bypass Spamcop, so I took the initial steps to delist the three pools of IPs at Spamcop (as per SendGrid's instructions). In the meantime, my G Suite email address and aliases are accepting email just fine.
+
+Email delivery is a pain in the ass.
+
+**Thoughts**: Tired. It's going to be a long and shitty week unless I get things working ASAP.
+
+**Link to work:** [Instagram post](https://www.instagram.com/p/B1X-udhAfOC/)
