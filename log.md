@@ -1441,3 +1441,71 @@ Email delivery is a pain in the ass.
 **Thoughts**: Tired. It's going to be a long and shitty week unless I get things working ASAP.
 
 **Link to work:** [Instagram post](https://www.instagram.com/p/B1X-udhAfOC/)
+
+### Day 99: August 20, 2019
+#### Hours spent coding/tinkering/etc: ~5
+
+**Today's Progress**: Well, even though I have _remarkably_ little to show for it, I figured out All The Things tonight.
+
+First, let's talk about the issues I was seeing on stage that I wasn't seeing locally, since that took me most of the 5 hours I spent staring at the computer tonight.
+
+The issue was that I was getting an error with SendGrid, when sending to two recipients. But only on stage or "production", and not locally. I thought this was an issue with my database users or perhaps the code was just janky and was, for some unknown reason, behaving differently.
+
+The most irritating part of the error was its claim that the array for the recipients had a null value in there. And I'm like "EXCUSE ME? It most certainly does NOT!"
+
+Fun fact: it did.
+
+But that's because stage and production, being new instances, downloaded the latest version of SendGrid with Composer, version 7.3.0.
+
+While I'm sitting here on a 10-month old version 7.2.0.
+
+Turns out that, you know, SendGrid CHANGED HOW TO SEND TO MULTIPLE RECIPIENTS in the intervening 10 months.
+
+Great. Perfect. Thanks for the heads up.
+
+So I updated my SendGrid and, voila, got the same error. Which is progress! Because at least I could _fix_ the error once and for all.
+
+I did that and it worked on stage as well as local and life was beautiful and I was thinking, gosh, what will I work on next for an hour or so?
+
+And then, as I was reviewing my branch that I wanted to merge to master, I realized I was using the wildcard for the database user's hostname. >.>
+
+So I went in and changed things and made it the `(docker container name).(docker network name)` address. And it worked fine locally. So I pushed that to GitHub and pulled it down on staging and ... it didn't work.
+
+What the fork, man?
+
+It was then that I noticed that the container and network names on my local environment has hyphens in it and the ones on staging do not.
+
+So I spent at least 45 minutes googling docker container names and hyphens.
+
+Bonus fun fact: The `docker-compose` version on the environment we've set up at AWS? Using 1.17 of `docker-compose`. What version am I using locally? Why that would be version 1.24.1, of course!
+
+... just recounting this story is exhausting.
+
+So then I tried to install the newer version on the AWS environment and that didn't work. I had to uninstall the older version, _then_ install the new one. And _that_ worked, and I could see that the hostnames would be identical to the ones on my local environment.
+
+Instead of `apt-get install docker-compose`, there's a whole curl command to run and such, so at least that'll be sorted tomorrow.
+
+And then, gosh, do I actually get to start tackling some of the outstanding issues???
+
+Maybe. We'll see. Tune in tomorrow for Day 100 of 100 Days of Code!
+
+**Thoughts**: So here we are, the end of Day 99. It's taken me a lot longer than I wanted to get to #100daysofcode, almost a full calendar year, but I'm HERE.
+
+I'll keep writing, to be sure. If nothing else, this is an epic recap of what I've been doing for the last actual year of my life, in terms of code.
+
+That said, I'm so tired. It was just so maddening and frustrating that not one, but TWO version issues were conspiring to drive me crazy. For three days. Not that I'm counting or anything.
+
+Just as frustrating is that I've spent nearly 20 hours in the last three days doing things that aren't even open issues in my repo. Like, I've spent 18 hours to get things to be THE SAME across my environments, essentially. That is a huge waste of time when I could be working on any of these items:
+
+- automate startup (includes setting weather, populating question data, setting me as admin)
+- automate maintenance (I have this as a GH issue at least)
+- SSL cert (letsencrypt)
+- get Elastic IP allocated and use it when we're all set
+- point www to the allocated IP
+- build forum on new `forum.riverofkurn.com` subdomain
+
+... all of which I'm gonna go add to my repo so I can at least check them off when I do them. :P
+
+And now, bed. At 3am. Note to future self: you were wondering why you're inflicting this on yourself at 3am on Wednesday, August 21, 2019. In case you were curious.
+
+**Link to work:** [Instagram post](https://www.instagram.com/p/B1anhcpAV9U/)
