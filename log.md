@@ -1509,3 +1509,30 @@ Just as frustrating is that I've spent nearly 20 hours in the last three days do
 And now, bed. At 3am. Note to future self: you were wondering why you're inflicting this on yourself at 3am on Wednesday, August 21, 2019. In case you were curious.
 
 **Link to work:** [Instagram post](https://www.instagram.com/p/B1anhcpAV9U/)
+
+### Day 100: August 22, 2019
+#### Hours spent coding: ~4
+
+**Today's Progress**: I slept a bit last night instead of coding. It didn't work out wonderfully, but I definitely needed the break.
+
+Anyway, welcome to Day 100. Insane.
+
+I wish I had some resoundingly great news, but I don't. I have _some_ good news, though. We got the allocated IP and now my domain resolves to the website. This is great.
+
+What's not great is trying to get an SSL certificate going. Let's Encrypt makes it super easy. Docker... does not.
+
+Getting there, but hooooo boy. I have to run Let's Encrypt in the damn container. This may suck. Gotta do it, though.
+
+Also, the `docker-compose` version? PERFECT. It fixed my hostname issues, so that's great. That means that I can get my game running beautifully, albeit without an SSL certificate at the moment.
+
+Once the SSL stuff is dealt with, I'll have to work on a cronjob to run maintenance and backup stuff.
+
+**Thoughts**: Very tired. And a little discouraged about the SSL stuff. It would be so easy without Docker! Not that I'm bitter.
+
+As to the end of #100daysofcode, as I said, I'll keep writing, but it's kind of astonishing to me that I've spent 100 days (in the last 330+) coding. I didn't do this much coding in my diploma program.
+
+I've learned a lot. I've banged my head against walls. I've refactored code. I've learned more about git. I've learned more about Composer. I've learned more about Docker. It's been a super valuable experience, if nothing else. I'm glad I tried, even if it took me almost a full calendar year to finish the challenge. But really, it's about getting my game to a point where I can share it with others and then work on refining it. I suspect I'll be doing this for a long, long time.
+
+Thanks for reading. :)
+
+**Link to work:** [Instagram post](https://www.instagram.com/p/B1fzMGKAKOz/)
