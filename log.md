@@ -1536,3 +1536,27 @@ I've learned a lot. I've banged my head against walls. I've refactored code. I'v
 Thanks for reading. :)
 
 **Link to work:** [Instagram post](https://www.instagram.com/p/B1fzMGKAKOz/)
+
+### Day 101: August 24, 2019
+#### Hours spent coding: ~7
+
+**Today's Progress**: Pretty much the entirety of today's efforts were directed towards getting an SSL certificate working properly. After a variety of options and issues with each, I am certain I've done something sub-optimal. Still, it works. There's a little green lock by the URL. And it's repeatable, too! Even after bringing the Docker containers down, it's still there when it goes back up.
+
+WHEW. I can refactor it Later(tm), but it works for now.
+
+This leaves me with a few issues left:
+
+- Fix question wrapper div padding (no big)
+- Automate startup (should be doable)
+- Automate backup routine (ditto)
+- Automate maintenance routine (ditto, and will include the backup)
+
+The other issues are optional-slash-can-be-done-later. I'm going to tackle those automations and then worry about the big one -- reloading assumes a right answer. I think I know why it's doing it, so paddling will likely require a small (?) refactor. I swear, I want to print out my code for that page.
+
+**Thoughts**: Exhausted, but holy shit, I am so happy to have gotten the cert working. There's still a lot to do, but moving everything to AWS, getting an IP, redirecting the domain to the IP, getting the cert... all of it has taken a full week. And now it's done.
+
+Everything else is just code, really. I can do the code parts. It's been the infrastructure stuff that has given me trouble.
+
+Anyway. It's 6am. Bedtime.
+
+**Link to work:** [Instagram post](https://www.instagram.com/p/B1lSFJAgTaT/)
