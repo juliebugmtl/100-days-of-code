@@ -1560,3 +1560,28 @@ Everything else is just code, really. I can do the code parts. It's been the inf
 Anyway. It's 6am. Bedtime.
 
 **Link to work:** [Instagram post](https://www.instagram.com/p/B1lSFJAgTaT/)
+
+### Day 102: September 1, 2019
+#### Hours spent coding: ~8
+
+**Today's Progress**: It's 7am on the 2nd and I'm wiped out. Bedtime shortly. BUT. So many things got done.
+
+- Changed to 5 questions for the intro, and changed up the questions too
+- Fixed question wrapper div padding
+- Automated backup routine (wheeeee crontab)
+- Set up the forum
+- Set up SSL for the forum
+- Edited forum link on various pages on the main site
+- Wrote patch notes and an alpha FAQ for the forum
+- Noted that the username will be visible to other users
+- Tweaked registration etc notices to say if the user doesn't get an email within 30m to email through the website
+
+Left to do, basically:
+
+- Automating maintenance routine (includes minor .htaccess wizardry and bash scripting which I'm too tired to think about right now) 
+
+Still haven't touched the reload issue and, frankly, I don't care. This sucker is going out later today.
+
+**Thoughts**: Pooped. But feeling pretty damn productive.
+
+**Link to work:** [Instagram post](https://www.instagram.com/p/B15_vjvgN_t/)
