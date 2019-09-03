@@ -1585,3 +1585,14 @@ Still haven't touched the reload issue and, frankly, I don't care. This sucker i
 **Thoughts**: Pooped. But feeling pretty damn productive.
 
 **Link to work:** [Instagram post](https://www.instagram.com/p/B15_vjvgN_t/)
+
+### Day 103: September 2, 2019
+#### Hours spent coding: ~6
+
+**Today's Progress**: And with that, folks, I am live.
+
+[River of Kurn](https://www.riverofkurn.com/)
+
+**Thoughts**: Excited and psyched and generally wow, but also tired. :D
+
+**Link to work:** [Instagram post](https://www.instagram.com/p/B18FMS8A29-/)
