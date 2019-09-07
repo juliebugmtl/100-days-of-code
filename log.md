@@ -1596,3 +1596,16 @@ Still haven't touched the reload issue and, frankly, I don't care. This sucker i
 **Thoughts**: Excited and psyched and generally wow, but also tired. :D
 
 **Link to work:** [Instagram post](https://www.instagram.com/p/B18FMS8A29-/)
+
+### Day 104: September 6, 2019
+#### Hours spent coding: ~2
+
+**Today's Progress**: Chatted with my friend Andrew about the instance size (we upped it), the AMI, set up an S3 bucket, learned how backups to it work, etc. This led to me writing a pretty complicated (to me) bash script to replace the hacky maintenance I have going that's very reliant on several cron jobs. Anyway, this one should work, though I'll need to test it.
+
+Tomorrow.
+
+In the meantime, if you haven't played [River of Kurn](https://www.riverofkurn.com/), yet, what are you waiting for?
+
+**Thoughts**: Now that the game is live, I cannot believe how much stuff I have to do. I need to plan out All The Things tomorrow.
+
+**Link to work:** [Instagram post](https://www.instagram.com/p/B2GrJyiAKvE/)
