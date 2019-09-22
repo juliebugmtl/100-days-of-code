@@ -1609,3 +1609,16 @@ In the meantime, if you haven't played [River of Kurn](https://www.riverofkurn.c
 **Thoughts**: Now that the game is live, I cannot believe how much stuff I have to do. I need to plan out All The Things tomorrow.
 
 **Link to work:** [Instagram post](https://www.instagram.com/p/B2GrJyiAKvE/)
+
+### Day 105: September 21, 2019
+#### Hours spent coding: ~6
+
+**Today's Progress**: I haven't updated here at all, really, though I did renew my SSL cert the other week and have tweaked a couple of things.
+
+Tonight, though, I did a full-on patch. I added questions, I changed stuff in the database (yet again), finally tested and edited my maintenance script and did assorted other things. Didn't fix the session bug -- maybe tomorrow.
+
+Want to play [River of Kurn](https://www.riverofkurn.com/)? Go on. It'll be fun.
+
+**Thoughts**: I have gone about things very stupidly in certain areas. Must fix those. Also, should plan things. I have not planned things out very well.
+
+**Link to work:** [Instagram post](https://www.instagram.com/p/B2s_g5WAnXW/)
